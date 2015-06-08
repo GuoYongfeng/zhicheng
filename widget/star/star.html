@@ -1,0 +1,11 @@
+<?php 
+	$data = $vars['data'];
+	$star = $data['star'];
+	$comment = $data['comment'];
+ ?>
+<span class="star-wrap">
+	<i style="width: <?= 14.1 * floor($star) + 15 * ($star - floor($star)) ?>px;"></i>
+	<?php if ( isset($data['comment']) ): ?>
+	<span>(<?= $comment ?>)</span>
+	<?php endif ?>
+</span>

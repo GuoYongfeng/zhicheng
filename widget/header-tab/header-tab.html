@@ -1,0 +1,62 @@
+<?php
+	/*
+	 * @widget [header-tab]
+	 * @author [dbxiao]
+	 * @date   [2015-04]
+	 * @desc   [H5 通用导航条]
+	 * 
+	 * @params [title：导航条Title
+	 *         	quickTit ：快捷导航Title
+	 *         	quickUrl ：快捷导航Url
+	 *         	referer  ：访问来源地址] 
+	 *         	
+	 * @demo   [ICT_View::widget('common:widget/header-tab/header-tab.html', array(
+	 *				"title"=>"注册",
+	 *				"quick_tit"=>"登录",
+	 *				"quick_url"=>"/m/passport/login?".$_SERVER["QUERY_STRING"],
+	 *				"referer"=>$vars["register_info"]["data"]["referer"]
+     *			));
+     *		   ]
+	 * @page
+	 * 			------------
+	 * 		   | <   tit   >|  <-- widget使用在页面这个位置
+	 * 		   |------------|
+	 * 		   |            |
+	 * 		   |            |
+	 * 		   |    page    |
+	 * 		   |            |
+	 * 		   |            |
+	 * 		   |            |
+	 * 		   |            |
+	 * 		    ------------
+	 */
+?>
+<header id="header-tab" class="header-tab _layoutHeader">
+	<div class="back _headerTap_back">
+		<a href="javascript:;">
+			<span class="icon icon-back-arrow"></span>
+		</a>
+	</div>
+	<div class="title _headerTap_title">PP租车</div>
+	<div class="quick _headerTap_quick">
+		<a href="javascript:;"></a>
+	</div>
+</header>
+<?php ICT_View::startScript() ?>
+	<script data-fixed="true">
+        var headerTab = require('common:widget/header-tab/header-tab.js');
+		var info = JSON.parse('<? echo (json_encode($data)) ?>');
+
+		var title = info.title;
+		var quickTit = info.quick_tit;
+		var quickUrl = info.quick_url;
+		var referer = info.referer;
+		
+		new headerTab({
+			title : title,
+			referer : referer,
+			quick_tit : quickTit,
+			quick_url : quickUrl
+		});
+	</script>
+<?php ICT_View::endScript() ?>

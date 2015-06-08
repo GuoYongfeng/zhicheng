@@ -1,0 +1,11 @@
+
+/.idea
+/.settings
+/.project
+/node_modules
+/.tmp
+
+/output
+/output.tar.gz
+
+.DS_Store

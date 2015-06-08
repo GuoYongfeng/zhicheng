@@ -1,0 +1,11 @@
+
+.ui-toast-wrap{
+	background: rgba(0,0,0,0.75);
+	padding: 0.16rem 0.25rem;
+	color: #fff;
+	border-radius: 0.05rem;
+	font-size: .14rem;
+	max-width: 80%;
+	word-wrap: break-word;
+	display: block;
+}

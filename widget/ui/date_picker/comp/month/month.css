@@ -1,0 +1,26 @@
+.ui-month-selector{
+	width: 100%;
+	font-size: 0;
+	margin: .12rem 0;
+	.ui-month {
+		display: inline-block;
+		width: 20%;		
+		color: #d6d6d6;
+		font-size: .12rem;
+		cursor: pointer;
+		text-align: center;
+		&:nth-child(1), &:nth-child(2) {
+			text-align: left;
+			width: 21%;
+		}
+		&:nth-child(4), &:nth-child(5){
+			text-align: right;
+			width: 21%;
+		}
+		&.selected {
+			text-align: center;
+			color: #333;
+			width: 16%;
+		}
+	}
+}

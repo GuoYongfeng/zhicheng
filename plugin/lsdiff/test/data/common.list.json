@@ -1,0 +1,25 @@
+{
+    "common_static_pkg_aio_css" : {
+        "hash" : "css_123456",
+        "type" : 2,
+        "list" : [
+            "aio_css_hash_1",
+            "aio_css_hash_2",
+            "aio_css_hash_3"
+        ]
+    },
+    "common_static_pkg_aio_js" : {
+        "hash" : "js_123456",
+        "type" : 1,
+        "list" : [
+            "aio_js_hash_1",
+            "aio_js_hash_2",
+            "aio_js_hash_3"
+        ]
+    },
+    "common_static_photo_js" : {
+        "hash" : "js_2345678",
+        "type" : 1,
+        "list" : ["js_2345678"]
+    }
+}

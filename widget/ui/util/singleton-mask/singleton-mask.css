@@ -1,0 +1,15 @@
+.ui-singleton-mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	z-index: 65535;
+
+	&.ui-mask-grey{
+		background: rgba(56,56,56,0.6);
+	}
+}

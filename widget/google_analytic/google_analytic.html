@@ -1,0 +1,45 @@
+<?php
+// 实验代码 
+$expId = isset( $vars['expId'] ) ? $vars['expId'] : F3::get('GET.expId');
+$expVar = isset( $vars['expVar'] ) ? $vars['expVar'] : F3::get('GET.expVar');;
+
+//统计字段
+$sid = session_id();
+$sid = empty($sid) ?  '-' : $sid;
+$user_id = F3::get('COOKIE.icc_user_id') ? F3::get('COOKIE.icc_user_id') : '-';
+$city = F3::get('COOKIE.icc_user_city');
+$order_id = $vars['orderid'] ? $vars['orderid'] : '-';
+if ( !empty($expId) ): ?>
+<script data-fixed="true" src="../../static/ga/api.js"></script>
+<script data-fixed="true">
+	var cxApi = cxApi || null;
+	
+	if( cxApi ){
+		cxApi.setDomainName(location.host.match(/\w+zuche.com/)[0]);
+		cxApi.setChosenVariation(+'<?=$expVar?>', '<?=$expId?>');
+	}
+</script>
+<?php endif ?>
+<script type="text/javascript" data-fixed="true">
+	var _gaq = _gaq || [];
+	var domain = location.host.match(/\w+zuche.com/)[0];
+	_gaq.push(['_setAccount', 'UA-44242190-1']);
+	_gaq.push(['_setDomainName', domain]);
+	//PP自定义字段
+	_gaq.push(['_setPpSID', '<?= $sid ?>']);
+	_gaq.push(['_setPpUserId', '<?= $user_id ?>']);
+	_gaq.push(['_setPpCity', '<?= $city ?>']);
+	_gaq.push(['_setPpChannel', 'mo']);
+	_gaq.push(['_setPpOrderId', '<?= $order_id ?>']);
+
+	<?php if ( !empty($vars['ga'])): ?>
+	_gaq.push(['_set', 'campaignParams', '<?=$vars['ga']?>']);
+	<?php endif ?>
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? __uri('../../static/ga/ssl_ga.js') : __uri('../../static/ga/ga.js'));;
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>

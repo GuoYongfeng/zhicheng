@@ -1,0 +1,53 @@
+.header-tab{
+	@height: 0.4rem;
+	@line-height: 0.4rem;
+	@title-color:#232323;
+	@error-color:#F93B50;
+	@normal-color:#FA6D44;
+
+	width:100%;
+	height: @height;
+	line-height: @line-height;
+	border-bottom: 1px solid #DDD;
+	background: #fff;
+
+	.back,.title,.quick{
+		float:left;
+		font-size: medium;
+		height: @height;
+		line-height: @line-height;
+	};
+	.back{
+		width:15%;
+		text-align: center;
+		font-size: x-large;
+
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			color:@normal-color;
+		}
+		.icon{
+			vertical-align: text-bottom;
+		}
+	}
+	.title{
+		width:70%;
+		text-align: center;
+		font-size:0.16rem;
+	}
+	.quick{
+		width:15%;
+		text-align: center;
+		
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			color:@normal-color;
+		}
+	}
+
+}
+

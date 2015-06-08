@@ -1,0 +1,27 @@
+.star-wrap{
+	padding-left: 74px;
+	min-height: 14px;
+	background: url(./images/star-bg.png) no-repeat left center;
+	background-size: 72px 14px;
+	position: relative;
+
+	i{
+		display: block;
+		min-height: 14px;
+		overflow: hidden;
+		background: url(./images/star.png) no-repeat left center;
+		background-size: 72px 14px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto 0;
+		vertical-align: middle;
+	}
+
+	span{
+		font-size: 0.1rem !important;
+		display: inline-block !important;
+		text-align: right !important;
+	}
+}

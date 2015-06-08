@@ -1,0 +1,11 @@
+/** button */
+button{
+	border:none;
+	font-size: medium;
+	border-radius: 2px;
+
+	a{
+		color:#fff;
+	}
+}
+

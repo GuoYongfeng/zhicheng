@@ -1,0 +1,48 @@
+.ui-time-picker {
+	width: 60%;
+	margin: .16rem auto;
+	text-align: center;	
+	.ui-time-btn {
+		font-size: .18rem;
+		color: #999;
+		margin: .1rem 0;
+		.hour-add, .hour-sub {
+			width: 33%;
+			float: left;
+		}
+		.minute-add, .minute-sub {
+			width: 33%;
+			float: right;
+		}
+	}
+	.ui-time-limitinfo {
+		text-align: center;
+		color: red;
+	}
+	.ui-time-display {
+		font-size: .16rem;
+		color: #333;
+		border-top: 1px solid rgba(0, 0, 0, 0);
+		border-bottom: 1px solid rgba(0, 0, 0, 0);
+		padding: .08rem 0;
+		&.limited {
+			border-top: 1px solid red;
+			border-bottom: 1px solid red;
+			background-color: rgba(255, 0, 0, 0.4);
+		}
+		.hour {
+			width: 33%;
+			float: left;
+		}
+		.spliter {		
+			width: 34%;
+			float: left;
+			line-height: 1;
+		}
+		.minute {
+			width: 33%;
+			float: right;
+		}
+	}
+	
+}
