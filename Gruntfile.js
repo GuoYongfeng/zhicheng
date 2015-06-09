@@ -1,102 +1,86 @@
 module.exports = function(grunt) {
-          grunt.initConfig({
-             pkg: grunt.file.readJSON('package.json'),  
-             concat: {
-                options: {
-                        banner: '/*! APP.common.css@<%= pkg.name %> - v<%= pkg.version %> - ' +
-                                '<%= grunt.template.today("yyyy-mm-dd") %> */'
-                    },
-                    mobileLess: {
-                      src: ['src/mobile/less/APP_common/*.less'],
-                      dest: 'src/mobile/less/APP.common_grunt.less',
-                 }
-            },
+ 
+    // include connect-include
+    // var ssInclude = require("connect");
+ 
+    // Project configuration.
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        watch: {
             less: {
-              development: {
+                files: ['page/**/*.less'],
+                tasks:['less:development'],
+                options: {livereload:false}
+            },
+            css: {
+                files: ['page/**/*.css'],
+                options: {livereload:true}
+            },
+            html: {
+                files: ['page/**/*.html'],
+                options: {livereload:true}
+            },
+            js: {
+                files: ['page/**/*.js'],
+                options: {livereload:true}
+            }
+        },
+        concat: {
+            options: {
+              separator: ';',
+              stripBanners: true,
+              banner: '/* author: guoyongfeng */'
+            },
+            dist: {
+                src: [
+                    'static/js/mod.js', 
+                    'static/js/fastclick.js', 
+                    'static/js/zepto.js'
+                ],
+                dest: 'static/common.js'
+            }
+        },
+        less: {
+            development:{
                 options: {
-                  compress: false,
-                  yuicompress: false
+                    compress: false,
+                    yuicompress: false
                 },
                 files: {
-                  "css/APP.common.css": "src/mobile/less/APP.common_grunt.less",
-                  "css/APP.web.index.css": "src/web/less/APP.web.index.less"
+                    "page/index/index.css": "page/index/index.less",
                 }
-              },
-              production: {
-                options: {
-                  modifyVars: {
-                            imagepath_page: '"/misc/images/"',
-                            imagepath: '"/misc/images/"'
-                  },
-                  compress: true,
-                  yuicompress: true,
-                  optimization: 2
-                },
-                files: {
-                  "css/pub/APP.common.css": "src/mobile/less/APP.common_grunt.less",
-                  "css/pub/APP.web.index.css": "src/web/less/APP.web.index.less"
-                }
-              }
-            },    
-            htmlbuild: {
-                        mobile: {
-                                src: 'src/mobile/html/*.html',
-                                desc: './',
-                                options: {
-                                        beautify: true,
-                                        relative: true,
-                                        sections: {
-                                                layout: {
-                                                        footbar: 'src/mobile/html/inc/footbar.html'
-                                                }
-                                        }
-                                }
-                        },
-                        web: {
-                                src: 'src/web/html/*.html',
-                                desc: './'
-                        }
-            },   	   	
-            watch: {
-              options: {
-                livereload: true
-              },
-              grunt: {
-                files: ['Gruntfile.js']
-              },
+            }
+        },
+        connect: {
+            options: {
+                port: 9000,
+                hostname: '*', //默认就是这个值，可配置为本机某个 IP，localhost 或域名
+                livereload: 35729  //声明给 watch 监听的端口
+            },
 
-              styles: {
-                files: [
-                        'src/**/less/*.less',
-                        'src/**/less/**/*.less'
-                ],
-                tasks: [
-                        'concat:mobileLess',
-                        'less'
-                ],
+            server: {
                 options: {
-                  nospawn: true
+                    open: true, //自动打开网页 http://
+                    base: [
+                        './'  //主目录
+                    ]
                 }
-              },
-              htmls: {
-                files: [
-                        'src/**/html/*.html',
-                        'src/**/html/**/*.html'
-                ],
-                tasks: [
-                        'htmlbuild'
-                ],
-                options: {
-                  nospawn: true
-                }
-              }
-            }    
-          });
-         
-          grunt.loadNpmTasks('grunt-contrib-concat');
-          grunt.loadNpmTasks('grunt-contrib-less');
-          grunt.loadNpmTasks('grunt-contrib-watch');
-          grunt.loadNpmTasks('grunt-html-build');
-         
-          grunt.registerTask('default', ['watch']);
-        };
+            }
+        }
+    });
+ 
+    // Load the plugin that provides the "uglify" task.
+    // grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+ 
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    // Default task(s).
+    // grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('lessc',['less:development']);
+    grunt.registerTask('default', [ 'connect:server','watch', 'less:development', 'concat']);
+
+    //使用watch，实时编译less成功
+ 
+};
