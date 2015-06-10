@@ -48,6 +48,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     "page/index/index.css": "page/index/index.less",
+                    "page/login/login.css": "page/login/login.less",
+                    "page/inform/inform.css": "page/inform/inform.less",
                 }
             }
         },
