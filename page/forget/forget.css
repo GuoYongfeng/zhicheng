@@ -1,0 +1,43 @@
+#forget .content {
+  margin: 0.8rem auto;
+  width: 100%;
+  height: 1.2rem;
+  background-color: #eff2f7;
+  padding: 0.1rem 0.15rem 0.1rem 0;
+}
+#forget .content .img_wrap {
+  float: left;
+  width: 0.5rem;
+  height: 1.2rem;
+  line-height: 1.6rem;
+  border-right: 1px solid #ccc;
+}
+#forget .content .right_wrap {
+  padding: 0.12rem;
+  margin-left: 0.5rem;
+  height: 1.2rem;
+  vertical-align: middle;
+}
+#forget .content .right_wrap h3 {
+  color: #666666;
+  font-size: 0.13rem;
+  line-height: 0.2rem;
+  font-weight: bold;
+  display: inline;
+}
+#forget .backup {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  background-color: #ff8903;
+  font-size: 0.2rem;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0.8rem;
+  border-radius: 0.05rem;
+}
