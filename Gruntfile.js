@@ -51,6 +51,12 @@ module.exports = function(grunt) {
                     "page/login/login.css": "page/login/login.less",
                     "page/inform/inform.css": "page/inform/inform.less",
                     "page/forget/forget.css": "page/forget/forget.less",
+                    "page/register/register.css": "page/register/register.less",
+                    "page/confirm/confirm.css": "page/confirm/confirm.less",
+                    "page/course/course.css": "page/course/course.less",
+                    "page/select/select.css": "page/select/select.less",
+                    "page/wait/wait.css": "page/wait/wait.less",
+
                 }
             }
         },
