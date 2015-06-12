@@ -56,6 +56,7 @@ module.exports = function(grunt) {
                     "page/course/course.css": "page/course/course.less",
                     "page/select/select.css": "page/select/select.less",
                     "page/wait/wait.css": "page/wait/wait.less",
+                    "page/query/query.css": "page/query/query.less",
 
                 }
             }
