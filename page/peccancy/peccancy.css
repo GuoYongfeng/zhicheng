@@ -1,0 +1,99 @@
+#peccancy dl {
+  margin-bottom: 0.64rem;
+}
+#peccancy .dir_icon {
+  width: 0.5rem;
+  height: 0.3rem;
+}
+#peccancy span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #ff8903;
+  margin: 0 0.1rem;
+}
+#peccancy dd {
+  width: 100%;
+  background-color: #eff2f7;
+  height: 0.4rem;
+  margin-top: 0.15rem;
+}
+#peccancy dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#peccancy .total_wrap {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#peccancy .total_wrap .total_icon {
+  float: left;
+}
+#peccancy .total_wrap .total li {
+  float: left;
+}
+#peccancy .love_car {
+  background-color: #fff;
+}
+#peccancy .love_car a {
+  width: 100%;
+  display: inline-block;
+  font-size: 0.14rem;
+  color: #ff8903;
+  text-align: center;
+}
+#peccancy .love_car a img {
+  float: right;
+}
+#peccancy .detail_common_wrap {
+  height: 0.8rem;
+  padding: 0.075rem 0;
+}
+#peccancy .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.11rem;
+  color: #ff8903;
+}
+#peccancy .detail_common_wrap .detail {
+  margin-left: 17.3%;
+  line-height: 0.24rem;
+}
+#peccancy .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+}
+#peccancy .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#peccancy .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#peccancy .detail_common_wrap .detail label {
+  color: #fff;
+  background-color: #ff8903;
+  font-size: 0.12rem;
+  padding: 0.04rem;
+  border-radius: 0.03rem;
+  margin-left: 0.1rem;
+}
+#peccancy .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#peccancy .detail_common_wrap .detail a {
+  display: inline-block;
+  width: 100%;
+}
+#peccancy .detail_common_wrap img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+}
