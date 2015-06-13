@@ -1,0 +1,112 @@
+#order dd {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  padding-right: 0.15rem;
+}
+#order .line {
+  margin-left: 18%;
+  font-size: 0.14rem;
+}
+#order .line span {
+  color: #999;
+}
+#order .line label {
+  float: right;
+  color: #666;
+}
+#order .line .color_change {
+  color: #ff8903;
+}
+#order .detail_common_wrap {
+  height: 0.8rem;
+  padding: 0.075rem 0;
+  margin-top: 0.15rem;
+}
+#order .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.11rem;
+  color: #ff8903;
+}
+#order .detail_common_wrap span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #ff8903;
+  margin: 0 0.1rem;
+}
+#order .detail_common_wrap p {
+  margin-left: 17.3%;
+  color: #999999;
+  font-size: 0.14rem;
+  line-height: 0.2rem;
+  margin-right: 3%;
+}
+#order .detail_common_wrap .detail {
+  margin-left: 17.3%;
+  line-height: 0.24rem;
+}
+#order .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+}
+#order .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#order .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#order .detail_common_wrap .detail label {
+  color: #fff;
+  background-color: #ff8903;
+  font-size: 0.12rem;
+  padding: 0.04rem;
+  border-radius: 0.03rem;
+  margin-left: 0.1rem;
+}
+#order .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#order .detail_common_wrap .detail a {
+  display: inline-block;
+  width: 100%;
+}
+#order .btns_wrap {
+  position: relative;
+  height: 1.4rem;
+}
+#order .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.7rem;
+}
+#order .btns input {
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#order .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#order .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}

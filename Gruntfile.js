@@ -59,6 +59,11 @@ module.exports = function(grunt) {
                     "page/query/query.css": "page/query/query.less",
                     "page/peccancy/peccancy.css": "page/peccancy/peccancy.less",
                     "page/auth/auth.css": "page/auth/auth.less",
+                    "page/handle/handle.css": "page/handle/handle.less",
+                    "page/upload/upload.css": "page/upload/upload.less",
+                    "page/addcar/addcar.css": "page/addcar/addcar.less",
+                    "page/dispose/dispose.css": "page/dispose/dispose.less",
+                    "page/order/order.css": "page/order/order.less",
                     
                 }
             }

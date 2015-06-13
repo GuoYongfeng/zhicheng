@@ -148,12 +148,13 @@
   background-color: #55d368;
   height: 0.5rem;
   line-height: 0.5rem;
+  border-radius: 0.05rem 0.05rem 0 0;
 }
 .ui-modal .main .content {
   color: #666666;
-  padding: 0.45rem 5%;
-  font-size: 0.16rem;
-  line-height: 0.28rem;
+  padding: 0.25rem 3%;
+  font-size: 0.14rem;
+  line-height: 0.24rem;
   text-align: center;
 }
 .ui-modal .main .control {

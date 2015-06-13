@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加车辆</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="address=no" name="format-detection">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="../../static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="addcar.css">
+	<script type="text/javascript" src="../../static/js/common.js"></script>
+</head>
+<body>
+	<div id="addcar">
+		<header class="head">
+			<img src="images/query_01.png">
+			<span>查询省份</span>
+			<a href="" class="province">
+				<span>河北</span>
+				<img src="images/query_02.png">
+			</a>
+		</header>
+		<form action="" method="post">
+			<dl>
+				<dd>
+					<img src="images/query_03.png">
+					<div class="common">
+						<span>车牌号</span>
+						<label>冀</label>
+						<input type="text" value="" class="car_num">
+					</div>
+				</dd>
+				<dd class="tips">
+					<p>
+						请输入车牌号后六位
+					</p>
+				</dd>
+				<dd>
+					<img src="images/query_04.png">
+					<div class="common">
+						<span>身份证号</span>
+						<input type="text" value="" placeholder="请输入您的身份证号">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/query_05.png">
+					<div class="common">
+						<span>发动机号</span>
+						<input type="text" value="" placeholder="请输入发动机号后四位">
+					</div>
+				</dd>
+			</dl>
+			<h3>
+				所填信息为当地交管局查询所必须信息，我们将对您的信息严格保密，请放心填写。
+			</h3>
+			<div class="btns">
+				<input type="button" class="addcar" value="保存">
+			</div>
+		</form>
+		<div class="nav">
+			<ul>
+				<li><img src="../../static/images/login_car.png" alt=""></li>
+				<li><img src="../../static/images/login_findcar.png" alt=""></li>
+				<li><img src="../../static/images/login_me.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="addcar.js"></script>
+</html>
