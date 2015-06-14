@@ -64,6 +64,7 @@ module.exports = function(grunt) {
                     "page/addcar/addcar.css": "page/addcar/addcar.less",
                     "page/dispose/dispose.css": "page/dispose/dispose.less",
                     "page/order/order.css": "page/order/order.less",
+                    "page/city/city.css": "page/city/city.less",
                     
                 }
             }
