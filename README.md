@@ -1,12 +1,14 @@
 # 项目日志
 
-## 2015-06-14 21:27
+## 2015-06-14 22:27
 
 * 添加事件处理机制，增设事件中心，观察者模式调度事件处理 -> event_center.js
 * 为所有页面添加fastclick，解决移动端触摸延迟、点透等多种BUG，并在页面DOMContentLoaded初始化后添加
 * 合并公共依赖的js文件为common.js一个文件
 * 新增page/city，完成城市选择页面，点击城市增加选中效果等
 * 新增page/service，完成驾管服务菜单页面，实现banner展示，完成菜单ui及点击跳转。
+* 新增page/announce，完成交管局公告展示页面
+* 新增page/commission，完成车务代办页面展示ui，包含banner展示和事务跳转功能
 
 ## 2015-06-14 16:59
 
