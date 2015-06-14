@@ -35,15 +35,16 @@
 }
 #city .city_wrap {
   width: 100%;
-  margin-top: 0.1rem;
+  overflow: hidden;
+  margin-bottom: 0.64rem;
 }
 #city .city_wrap li {
   width: 30%;
   height: 0.3rem;
-  background-color: #ccc;
+  border: 1px solid #ccc;
   border-radius: 0.1rem;
   float: left;
-  margin-left: 0.08rem;
+  margin-left: 0.07rem;
   text-align: center;
   font-size: 0.13rem;
   color: #666;
@@ -51,7 +52,11 @@
   margin-top: 0.1rem;
 }
 #city .city_wrap .selected {
+  border-color: #ff8903;
   background-color: #ff8903;
   color: #fff;
-  background-image: url(images/city_02.png) no-repeat;
+  background-image: url(images/city_02.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 0.65rem -0.01rem;
 }

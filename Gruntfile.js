@@ -33,11 +33,12 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
+                    'static/js/zepto.js',
                     'static/js/mod.js', 
                     'static/js/fastclick.js', 
-                    'static/js/zepto.js'
+                    'static/js/execFastclick.js'
                 ],
-                dest: 'static/common.js'
+                dest: 'static/js/common.js'
             }
         },
         less: {
@@ -65,6 +66,7 @@ module.exports = function(grunt) {
                     "page/dispose/dispose.css": "page/dispose/dispose.less",
                     "page/order/order.css": "page/order/order.less",
                     "page/city/city.css": "page/city/city.less",
+                    "page/service/service.css": "page/service/service.less",
                     
                 }
             }
