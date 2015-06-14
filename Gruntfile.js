@@ -69,8 +69,7 @@ module.exports = function(grunt) {
                     "page/service/service.css": "page/service/service.less",
                     "page/announce/announce.css": "page/announce/announce.less",
                     "page/commission/commission.css": "page/commission/commission.less",
-            
-                    
+                    "page/card/card.css": "page/card/card.less",
                 }
             }
         },
