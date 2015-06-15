@@ -77,6 +77,8 @@ module.exports = function(grunt) {
                     "page/order_wait/order_wait.css": "page/order_wait/order_wait.less",
                     "page/order_upload/order_upload.css": "page/order_upload/order_upload.less",
                     "page/order_pay/order_pay.css": "page/order_pay/order_pay.less",
+                    "page/exchange/exchange.css": "page/exchange/exchange.less",
+
 
                 }
             }

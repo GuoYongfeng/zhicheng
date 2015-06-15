@@ -140,7 +140,10 @@
   right: 4%;
   bottom: 0.7rem;
 }
-#order .btns input {
+#order .btns input,
+#order .btns a {
+  display: inline-block;
+  text-align: center;
   width: 47.6%;
   height: 0.45rem;
   line-height: 0.45rem;
@@ -158,4 +161,34 @@
 #order .btns .order {
   background-color: #55d368;
   margin-left: 2%;
+}
+.ui-modal .main .content {
+  padding: 0;
+}
+.ui-modal .item {
+  height: 0.36rem;
+  line-height: 0.36rem;
+  background-color: #eff2f7;
+  margin-bottom: 0.01rem;
+  padding: 0.07rem 0.15rem;
+  font-size: 0.16rem;
+  color: #666;
+  position: relative;
+}
+.ui-modal .item input {
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-top: 0.06rem;
+  float: left;
+}
+.ui-modal .item label {
+  position: absolute;
+  left: 0.5rem;
+  border-left: 1px solid #ccc;
+  padding-left: 0.1rem;
+}
+.ui-modal .item span {
+  float: right;
+  color: #fe8f12;
 }

@@ -59,7 +59,10 @@
   right: 4%;
   bottom: 0.1rem;
 }
-#login .btns input {
+#login .btns input,
+#login .btns a {
+  display: inline-block;
+  text-align: center;
   width: 46%;
   height: 0.45rem;
   line-height: 0.45rem;

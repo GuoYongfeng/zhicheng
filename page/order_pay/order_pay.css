@@ -92,7 +92,10 @@
   right: 4%;
   bottom: 0.7rem;
 }
-#order_pay .btns input {
+#order_pay .btns input,
+#order_pay .btns a {
+  display: inline-block;
+  text-align: center;
   width: 47.6%;
   height: 0.45rem;
   line-height: 0.45rem;

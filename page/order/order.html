@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../../static/css/common.css">
 	<link rel="stylesheet" type="text/css" href="order.css">
 	<script type="text/javascript" src="../../static/js/common.js"></script>
+	<script type="text/javascript" src="../../static/js/modal/modal.js"></script>
 </head>
 <body>
 	<div id="order">
@@ -89,10 +90,10 @@
 				</div>
 			</dd>
 			<dd>
-				<a href="" class="line">
+				<div class="line coupons">
 					<span class="color_change">无可用的优惠券</span>
 					<img src="images/order_24.png" class="dir">
-				</a>
+				</div>
 			</dd>
 			<dd>
 				<div class="line">
@@ -101,10 +102,10 @@
 				</div>
 			</dd>
 			<dd>
-				<a href="" class="line">
+				<div class="line coupons">
 					<span class="color_change">可用的优惠券</span>
 					<img src="images/order_24.png" class="dir">
-				</a>
+				</div>
 			</dd>
 
 			<dd class="detail_common_wrap">
@@ -117,7 +118,7 @@
 		<div class="btns_wrap">
 			<div class="btns">
 				<input type="text" class="price" value="￥220.00">
-				<input type="button" class="order" value="提交订单">
+				<a href="../order_pay/order_pay.html" class="order">提交订单</a>
 			</div>
 		</div>
 		<div class="nav">
