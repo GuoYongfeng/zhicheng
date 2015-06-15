@@ -1,0 +1,13 @@
+#change .content {
+  overflow: hidden;
+  padding: 0.15rem;
+  margin-bottom: 0.64rem;
+}
+#change .content img {
+  margin: 0.05rem 0;
+}
+#change .content p {
+  color: #666666;
+  font-size: 0.14rem;
+  line-height: 0.2rem;
+}

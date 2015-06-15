@@ -16,16 +16,17 @@
   background-color: #ccc;
   position: absolute;
   display: inline-block;
-  width: 0.18rem;
-  height: 0.18rem;
-  left: 0.02rem;
-  border-radius: 0.09rem;
-  top: 0.15rem;
-  line-height: 0.2rem;
+  width: 0.16rem;
+  height: 0.16rem;
+  left: 0.04rem;
+  border-radius: 0.08rem;
+  top: 0.16rem;
+  line-height: 0.16rem;
   color: #fff;
+  font-size: 0.12rem;
 }
 #order .header li h3 {
-  margin-left: 0.15rem;
+  margin-left: 0.18rem;
   font-size: 0.13rem;
 }
 #order .header .selected {
@@ -35,6 +36,13 @@
 #order .header .selected span {
   color: #55d368;
   background-color: #fff;
+}
+#order .header .over_select {
+  color: #55d368;
+}
+#order .header .over_select span {
+  color: #fff;
+  background-color: #55d368;
 }
 #order dd {
   background-color: #eff2f7;

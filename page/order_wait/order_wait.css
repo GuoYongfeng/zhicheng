@@ -1,0 +1,74 @@
+body {
+  background-color: #eff2f7;
+}
+#order_wait .header {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: #eff2f7;
+  font-size: 0.15rem;
+  color: #999;
+  text-align: center;
+}
+#order_wait .header li {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+#order_wait .header li span {
+  background-color: #ccc;
+  position: absolute;
+  display: inline-block;
+  width: 0.16rem;
+  height: 0.16rem;
+  left: 0.04rem;
+  border-radius: 0.08rem;
+  top: 0.16rem;
+  line-height: 0.16rem;
+  color: #fff;
+  font-size: 0.12rem;
+}
+#order_wait .header li h3 {
+  margin-left: 0.18rem;
+  font-size: 0.13rem;
+}
+#order_wait .header .selected {
+  background-color: #55d368;
+  color: #fff;
+}
+#order_wait .header .selected span {
+  color: #55d368;
+  background-color: #fff;
+}
+#order_wait .header .over_select {
+  color: #55d368;
+}
+#order_wait .header .over_select span {
+  color: #fff;
+  background-color: #55d368;
+}
+#order_wait dl {
+  margin: 1rem 0;
+}
+#order_wait dd {
+  background-color: #fff;
+  padding: 0.15rem 0.15rem 0.15rem 0;
+  height: 1.1rem;
+}
+#order_wait dd img {
+  width: 0.5rem;
+  line-height: -4.5rem;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+#order_wait dd h3 {
+  margin-left: 0.5rem;
+  padding-left: 0.15rem;
+  color: #999;
+  font-size: 0.13rem;
+  line-height: 0.18rem;
+  margin-top: 0.2rem;
+}
+#order_wait dd h3 strong {
+  color: #ff8903;
+}

@@ -70,6 +70,14 @@ module.exports = function(grunt) {
                     "page/announce/announce.css": "page/announce/announce.less",
                     "page/commission/commission.css": "page/commission/commission.less",
                     "page/card/card.css": "page/card/card.less",
+                    "page/secondhand/secondhand.css": "page/secondhand/secondhand.less",
+                    "page/newcar/newcar.css": "page/newcar/newcar.less",
+                    "page/validatecar/validatecar.css": "page/validatecar/validatecar.less",
+                    "page/change/change.css": "page/change/change.less",
+                    "page/order_wait/order_wait.css": "page/order_wait/order_wait.less",
+                    "page/order_upload/order_upload.css": "page/order_upload/order_upload.less",
+                    "page/order_pay/order_pay.css": "page/order_pay/order_pay.less",
+
                 }
             }
         },
