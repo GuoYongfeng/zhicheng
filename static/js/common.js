@@ -3037,3 +3037,43 @@ window.$ === undefined && (window.$ = Zepto)
 	    }, false);
 	};
 })();
+$(function () { 
+
+  var tabs = {
+    dom: {
+      list: $('.nav-tabs>li'),
+      pane: $('.tab-pane')
+    },
+
+    init: function(){
+      this.bind();
+    },
+
+    bind: function(){
+      var _this = this,
+        list = this.dom.list;
+
+      list.forEach(function(item, index, input){
+        $(item).on('click', function(e){
+          _this.reset();
+          $(this).addClass('active');
+          $(_this.dom.pane[index]).addClass('active');
+        });
+      });
+
+    },
+
+    reset: function () {
+      var list = this.dom.list,
+        pane = this.dom.pane;
+
+      for (var i = 0; i < list.length; i++) {
+        $(list[i]).removeClass('active');
+        $(pane[i]).removeClass('active');
+      };
+    }
+  };
+
+  tabs.init();
+
+});

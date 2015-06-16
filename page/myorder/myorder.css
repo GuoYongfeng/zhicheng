@@ -1,0 +1,117 @@
+#myorder .nav-tabs {
+  overflow: hidden;
+}
+#myorder .nav-tabs li {
+  width: 50%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  float: left;
+  background-color: #eff2f7;
+  background-image: url(images/myorder_03.png);
+  background-repeat: no-repeat;
+  background-size: 30% 60%;
+  background-position: 0.14rem 0.11rem;
+  position: relative;
+}
+#myorder .nav-tabs li h4 {
+  display: inline;
+  color: #666;
+  font-size: 0.18rem;
+  margin-left: 0.6rem;
+}
+#myorder .nav-tabs li span {
+  background-color: #ff8903;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.24rem;
+  right: 0.34rem;
+  border-radius: 0.12rem;
+  top: 0.13rem;
+  line-height: 0.24rem;
+  color: #fff;
+  font-size: 0.16rem;
+}
+#myorder .nav-tabs .active {
+  background-color: #55d368;
+  background-image: url(images/myorder_05.png);
+}
+#myorder .nav-tabs .active h4 {
+  display: inline;
+  color: #fff;
+  font-size: 0.18rem;
+  margin-left: 0.6rem;
+}
+#myorder dl {
+  margin-bottom: 0.6rem;
+}
+#myorder .detail_common_wrap {
+  height: 0.8rem;
+  padding: 0.075rem 0;
+  background-color: #eff2f7;
+  margin-top: 0.2rem;
+}
+#myorder .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.11rem;
+  color: #ff8903;
+}
+#myorder .detail_common_wrap span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #ff8903;
+  margin: 0 0.1rem;
+}
+#myorder .detail_common_wrap .detail {
+  margin-left: 17.3%;
+  line-height: 0.24rem;
+}
+#myorder .detail_common_wrap .detail li {
+  position: relative;
+}
+#myorder .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+}
+#myorder .detail_common_wrap .detail .i_right {
+  position: absolute;
+  right: 0.5rem;
+}
+#myorder .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#myorder .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#myorder .detail_common_wrap .detail label {
+  color: #fff;
+  background-color: #ff8903;
+  font-size: 0.12rem;
+  padding: 0 0.04rem;
+  border-radius: 0.03rem;
+  position: absolute;
+  right: 0.5rem;
+}
+#myorder .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#myorder .detail_common_wrap .detail a {
+  display: inline-block;
+  width: 100%;
+}
+#myorder .detail_common_wrap img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+}

@@ -173,3 +173,11 @@
   background-color: #fff;
   letter-spacing: 0.1rem;
 }
+/* tab */
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+
