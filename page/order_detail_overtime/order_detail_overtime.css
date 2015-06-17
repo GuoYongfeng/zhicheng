@@ -1,0 +1,61 @@
+#order_detail_overtime dl {
+  margin-top: 0.1rem;
+}
+#order_detail_overtime dd {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  padding: 0 0.15rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+#order_detail_overtime dd span {
+  float: left;
+}
+#order_detail_overtime dd i {
+  font-style: normal;
+  color: #fff;
+  background-color: #ff8903;
+  padding: 0.04rem;
+  margin-left: 1.2rem;
+  border-radius: 0.03rem;
+}
+#order_detail_overtime dd label {
+  float: right;
+}
+#order_detail_overtime dd .orange {
+  color: #ff8903;
+}
+#order_detail_overtime .higher {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#order_detail_overtime .btns_wrap {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.7rem;
+}
+#order_detail_overtime .btns input,
+#order_detail_overtime .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#order_detail_overtime .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#order_detail_overtime .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}

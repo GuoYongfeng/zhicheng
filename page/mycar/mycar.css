@@ -1,0 +1,58 @@
+#mycar dd {
+  background-color: #eff2f7;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.15rem;
+  padding-right: 0.15rem;
+}
+#mycar dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#mycar dd .common {
+  position: relative;
+  display: block;
+}
+#mycar dd .common span {
+  color: #666;
+  font-size: 0.13rem;
+  display: inline-block;
+  height: 0.3rem;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+}
+#mycar dd .common i {
+  display: inline-block;
+  font-style: normal;
+  color: #fff;
+  font-size: 0.13rem;
+  background-color: #ff8903;
+  border-radius: 0.03rem;
+  position: absolute;
+  width: 0.45rem;
+  text-align: center;
+  height: 0.28rem;
+  line-height: 0.28rem;
+  top: 0.1rem;
+  right: 0.5rem;
+}
+#mycar dd .common input {
+  width: 80%;
+  font-size: 0.13rem;
+  height: 0.3rem;
+  border: none;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+  color: #999;
+  background-color: #eff2f7;
+}
+#mycar .left {
+  float: left;
+}
+#mycar .right {
+  float: right;
+}

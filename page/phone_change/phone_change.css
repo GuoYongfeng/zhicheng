@@ -1,0 +1,51 @@
+#phone_change dd {
+  background-color: #eff2f7;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.15rem;
+  padding-right: 0.15rem;
+}
+#phone_change dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+}
+#phone_change dd .common {
+  position: relative;
+}
+#phone_change dd .common input {
+  width: 80%;
+  font-size: 0.13rem;
+  height: 0.3rem;
+  border: none;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+  color: #999;
+  background-color: #eff2f7;
+}
+#phone_change .btns_wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.64rem;
+}
+#phone_change .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.1rem;
+}
+#phone_change .btns .change {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+  background-color: #ff8903;
+}

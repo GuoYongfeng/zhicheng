@@ -1,8 +1,19 @@
-#phone{
+#addr{
 	header{
 		width: 100%;
 		height: 0.5rem;
+		line-height: 0.5rem;
 		background-color: #55d368;
+		text-align: center;
+		img{
+			width: 0.5rem;
+			height: 0.5rem;
+		}
+		span{
+			color: #fff;
+			vertical-align: text-bottom;
+			font-size: 0.18rem;
+		}
 	}
 	// content of login
 	.content{
@@ -15,10 +26,19 @@
 			line-height: 0.5rem;
 			margin-top: 0.15rem;
 			padding-right: 0.15rem;
-			img{
+			.img_wrap{
 				width: 0.5rem;
 				height: 0.5rem;
 				float: left;
+				background: url(images/addr_01.png) left top no-repeat;
+				background-size: 100% 100%;
+			}
+			.img_wrap_selected{
+				width: 0.5rem;
+				height: 0.5rem;
+				float: left;
+				background: url(images/addr_02.png) left top no-repeat;
+				background-size: 100% 100%;
 			}
 
 			.common{

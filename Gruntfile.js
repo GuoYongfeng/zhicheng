@@ -80,6 +80,16 @@ module.exports = function(grunt) {
                     "page/exchange/exchange.css": "page/exchange/exchange.less",
                     "page/mycoupons/mycoupons.css": "page/mycoupons/mycoupons.less",
                     "page/myorder/myorder.css": "page/myorder/myorder.less",
+                    "page/phone/phone.css": "page/phone/phone.less",
+                    "page/addr/addr.css": "page/addr/addr.less",
+                    "page/addr_search/addr_search.css": "page/addr_search/addr_search.less",
+                    "page/phone_change/phone_change.css": "page/phone_change/phone_change.less",
+                    "page/mycar/mycar.css": "page/mycar/mycar.less",
+                    "page/nickname/nickname.css": "page/nickname/nickname.less",
+                    "page/sex/sex.css": "page/sex/sex.less",
+                    "page/order_detail/order_detail.css": "page/order_detail/order_detail.less",
+                    "page/order_detail_overtime/order_detail_overtime.css": "page/order_detail_overtime/order_detail_overtime.less",
+                    
                     
                 }
             }
