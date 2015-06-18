@@ -1,0 +1,58 @@
+#user_center dl {
+  margin-bottom: 0.64rem;
+}
+#user_center dd {
+  width: 100%;
+  background-color: #eff2f7;
+  margin-top: 0.15rem;
+  padding: 0.1rem 0;
+}
+#user_center dd img {
+  width: 0.5rem;
+  height: 0.38rem;
+  float: left;
+}
+#user_center dd .common {
+  display: inline-block;
+  font-size: 0.16rem;
+  border-left: 1px solid #ccc;
+  width: 80%;
+  color: #666;
+  maregin-left: 0.1rem;
+  line-height: 0.38rem;
+  padding-left: 0.1rem;
+  position: relative;
+}
+#user_center dd .common img {
+  float: right;
+}
+#user_center dd .common span {
+  font-size: 0.14rem;
+  color: #666;
+}
+#user_center dd .common i {
+  display: inline-block;
+  width: 58%;
+  font-size: 0.13rem;
+  font-style: normal;
+  margin-left: 0.05rem;
+  text-align: right;
+  position: absolute;
+  right: 0.42rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#user_center dd .common .orange {
+  color: #ff8903;
+}
+#user_center dd .common .radius {
+  color: #fff;
+  background-color: #ff8903;
+  width: 0.24rem;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  text-align: center;
+  border-radius: 0.12rem;
+  top: 0.1rem;
+}

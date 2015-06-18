@@ -1,0 +1,41 @@
+#user_info dl {
+  margin-bottom: 0.64rem;
+}
+#user_info dd {
+  width: 100%;
+  background-color: #eff2f7;
+  margin-top: 0.15rem;
+  padding: 0.1rem 0;
+}
+#user_info dd img {
+  width: 0.5rem;
+  height: 0.38rem;
+  float: left;
+}
+#user_info dd .common {
+  display: inline-block;
+  font-size: 0.16rem;
+  border-left: 1px solid #ccc;
+  width: 80%;
+  color: #666;
+  maregin-left: 0.1rem;
+  line-height: 0.38rem;
+  padding-left: 0.1rem;
+  position: relative;
+}
+#user_info dd .common img {
+  float: right;
+}
+#user_info dd .common span {
+  font-size: 0.14rem;
+  color: #666;
+}
+#user_info dd .common i {
+  display: inline-block;
+  font-size: 0.13rem;
+  font-style: normal;
+  margin-left: 0.05rem;
+  text-align: right;
+  position: absolute;
+  right: 0.5rem;
+}

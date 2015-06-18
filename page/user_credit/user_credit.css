@@ -1,0 +1,95 @@
+#user_credit .header ul {
+  padding-top: 0.28rem;
+}
+#user_credit .header img {
+  width: 0.3rem;
+  height: 0.24rem;
+  margin-bottom: -0.05rem;
+}
+#user_credit .header li {
+  color: #fff;
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+}
+#user_credit .header i {
+  background-color: #ff8903;
+  padding: 0.02rem 0.06rem;
+  font-size: 0.12rem;
+  border-radius: 0.03rem;
+  margin-left: 0.1rem;
+}
+#user_credit dl {
+  margin-bottom: 0.6rem;
+}
+#user_credit .detail_common_wrap {
+  background-color: #eff2f7;
+  height: 1.28rem;
+  margin-top: 0.15rem;
+  position: relative;
+}
+#user_credit .detail_common_wrap .top_bg {
+  width: 100%;
+}
+#user_credit .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.14rem;
+  color: #ff8903;
+}
+#user_credit .detail_common_wrap .right_wrap {
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+}
+#user_credit .detail_common_wrap .right_wrap .orange {
+  color: #ff8903;
+  font-size: 0.2rem;
+}
+#user_credit .detail_common_wrap .right_wrap .no_color {
+  color: #999;
+}
+#user_credit .detail_common_wrap .right_wrap img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+}
+#user_credit .detail_common_wrap .detail {
+  margin-left: 17.3%;
+  position: relative;
+}
+#user_credit .detail_common_wrap .detail li {
+  height: 0.28rem;
+  line-height: 0.28rem;
+}
+#user_credit .detail_common_wrap .detail i {
+  display: inline-block;
+  color: #999999;
+  font-size: 0.14rem;
+  font-style: normal;
+  line-height: 0.2rem;
+  width: 60%;
+}
+#user_credit .detail_common_wrap .detail strong {
+  font-size: 0.14rem;
+  color: #666;
+}
+#user_credit .detail_common_wrap .detail span {
+  font-size: 0.15rem;
+  color: #666666;
+}
+#user_credit .detail_common_wrap .detail label {
+  color: #ff8903;
+  font-size: 0.14rem;
+  margin-left: 0.1rem;
+}
+#user_credit .detail_common_wrap a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 86%;
+  height: inherit;
+}
