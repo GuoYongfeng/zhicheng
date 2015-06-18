@@ -90,6 +90,10 @@ module.exports = function(grunt) {
                     "page/order_detail/order_detail.css": "page/order_detail/order_detail.less",
                     "page/order_detail_overtime/order_detail_overtime.css": "page/order_detail_overtime/order_detail_overtime.less",
                     "page/order_detail_waiting/order_detail_waiting.css": "page/order_detail_waiting/order_detail_waiting.less",
+                    "page/vip/vip.css": "page/vip/vip.less",
+                    "page/user_center/user_center.css": "page/user_center/user_center.less",
+                    "page/user_info/user_info.css": "page/user_info/user_info.less",
+                    "page/user_credit/user_credit.css": "page/user_credit/user_credit.less",
                     
                     
                 }
