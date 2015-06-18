@@ -1,5 +1,19 @@
 # 项目日志
 
+## 2015-06-18 09:59
+
+* 本次更新补增6月17日的工作进展
+* 新增page/phone，完成绑定手机号页面ui
+* 新增page/phone_change，完成更换手机号页面ui
+* 新增page/addr，完成常用地址页面ui
+* 新增page/addr_search，完成添加常用地址页面ui
+* 新增page/mycar，完成我的车辆页面ui
+* 新增page/nickname，完成修改昵称页面ui
+* 新增page/sex，完成选择性别页面ui
+* 新增page/order_detail，完成订单详情页的订单完成状态页面
+* 新增page/order_detail_overtime，完成订单详情页的订单逾期状态页面
+* 新增page/order_detail_waiting，完成订单详情页的订单处理中状态页面
+
 ## 2015-06-16 23:58
 
 * 编写tab选项卡插件，丰富扩展
