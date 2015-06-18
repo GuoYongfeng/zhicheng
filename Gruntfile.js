@@ -89,6 +89,7 @@ module.exports = function(grunt) {
                     "page/sex/sex.css": "page/sex/sex.less",
                     "page/order_detail/order_detail.css": "page/order_detail/order_detail.less",
                     "page/order_detail_overtime/order_detail_overtime.css": "page/order_detail_overtime/order_detail_overtime.less",
+                    "page/order_detail_waiting/order_detail_waiting.css": "page/order_detail_waiting/order_detail_waiting.less",
                     
                     
                 }

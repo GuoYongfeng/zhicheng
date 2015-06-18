@@ -1,0 +1,41 @@
+#order_detail_waiting dl {
+  margin-top: 0.1rem;
+}
+#order_detail_waiting dd {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  padding: 0 0.15rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+#order_detail_waiting dd span {
+  float: left;
+}
+#order_detail_waiting dd i {
+  font-style: normal;
+  color: #fff;
+  background-color: #ff8903;
+  padding: 0.04rem;
+  margin-left: 1.2rem;
+  border-radius: 0.03rem;
+}
+#order_detail_waiting dd label {
+  float: right;
+}
+#order_detail_waiting dd .orange {
+  color: #ff8903;
+}
+#order_detail_waiting .higher {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#order_detail_waiting h3 {
+  width: 100%;
+  line-height: 0.2rem;
+  font-size: 0.13rem;
+  color: #999;
+  background-color: #eff2f7;
+  padding: 0.36rem 4%;
+}
