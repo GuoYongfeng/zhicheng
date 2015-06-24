@@ -1,0 +1,77 @@
+#washcar dl {
+  margin-bottom: 0.6rem;
+}
+#washcar .detail_common_wrap {
+  height: 0.9rem;
+  padding: 0.075rem 0;
+  background-color: #eff2f7;
+  margin-top: 0.2rem;
+}
+#washcar .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.11rem;
+  color: #ff8903;
+}
+#washcar .detail_common_wrap img {
+  width: 0.55rem;
+  height: 0.4rem;
+  float: left;
+  margin: 0.2rem 4%;
+  line-height: 0.75rem;
+}
+#washcar .detail_common_wrap span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #666666;
+  margin: 0 0.1rem;
+}
+#washcar .detail_common_wrap .detail {
+  margin-left: 27.3%;
+  line-height: 0.24rem;
+  border-left: 1px solid #ccc;
+  padding-left: 0.1rem;
+}
+#washcar .detail_common_wrap .detail li {
+  position: relative;
+}
+#washcar .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+  margin-right: 0.3rem;
+}
+#washcar .detail_common_wrap .detail .i_right {
+  position: absolute;
+  right: 0.5rem;
+}
+#washcar .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#washcar .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#washcar .detail_common_wrap .detail label {
+  color: #ff8903;
+  font-size: 0.12rem;
+  position: absolute;
+  right: 0.5rem;
+}
+#washcar .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#washcar .detail_common_wrap .detail img {
+  width: 0.5rem;
+  height: 0.28rem;
+  position: absolute;
+  right: 0;
+  border: none;
+}
