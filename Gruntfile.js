@@ -96,7 +96,7 @@ module.exports = function(grunt) {
                     "page/user_credit/user_credit.css": "page/user_credit/user_credit.less",
                     "page/washcar/washcar.css": "page/washcar/washcar.less",
                     "page/search/search.css": "page/search/search.less",
-                    
+                    "page/wash_detail/wash_detail.css": "page/wash_detail/wash_detail.less",
                     
                 }
             }

@@ -1,0 +1,164 @@
+#wash_detail .detail_common_wrap {
+  padding: 0.075rem 0;
+  background-color: #eff2f7;
+  position: relative;
+}
+#wash_detail .detail_common_wrap .left_img {
+  width: 0.55rem;
+  height: 0.4rem;
+  float: left;
+  margin: 0.2rem 4%;
+}
+#wash_detail .detail_common_wrap .radius {
+  width: 0.54rem;
+  height: 0.54rem;
+  float: left;
+  margin: 0.1rem 5%;
+  border-radius: 0.27rem;
+}
+#wash_detail .detail_common_wrap .right_img {
+  width: 0.5rem;
+  height: 0.28rem;
+  position: absolute;
+  right: 0;
+  border: none;
+  top: 0.3rem;
+}
+#wash_detail .detail_common_wrap span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #666666;
+  margin: 0 0.1rem;
+}
+#wash_detail .detail_common_wrap .detail {
+  margin-left: 27.3%;
+  border-left: 1px solid #ccc;
+  padding-left: 0.1rem;
+}
+#wash_detail .detail_common_wrap .detail li {
+  height: 0.24rem;
+  line-height: 0.24rem;
+}
+#wash_detail .detail_common_wrap .detail li h3 {
+  color: #999999;
+  font-size: 0.12rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#wash_detail .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+  margin-right: 0.2rem;
+}
+#wash_detail .detail_common_wrap .detail .i_right {
+  position: absolute;
+  right: 0.5rem;
+}
+#wash_detail .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#wash_detail .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#wash_detail .detail_common_wrap .detail label {
+  color: #ff8903;
+  font-size: 0.12rem;
+  position: absolute;
+  right: 0.5rem;
+}
+#wash_detail .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#wash_detail .detail_common_wrap .detail a {
+  display: inline-block;
+  width: 100%;
+}
+#wash_detail .inp {
+  background-color: #eff2f7;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.15rem;
+  padding-right: 0.15rem;
+}
+#wash_detail .inp img {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+}
+#wash_detail .inp .common {
+  position: relative;
+}
+#wash_detail .inp .common span {
+  color: #666;
+  font-size: 0.13rem;
+  display: inline-block;
+  height: 0.3rem;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+}
+#wash_detail .inp .common input {
+  position: absolute;
+  right: 0;
+  top: 0.1rem;
+  margin: 0;
+  padding: 0;
+  height: 0.3rem;
+  width: 60%;
+  border: none;
+  font-size: 0.13rem;
+  padding-right: 0.03rem;
+  color: #999;
+  text-align: right;
+  background-color: #eff2f7;
+}
+#wash_detail .btns_wrap {
+  position: relative;
+  margin: 0.15rem 0;
+}
+#wash_detail .btns input,
+#wash_detail .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#wash_detail .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#wash_detail .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}
+#wash_detail .bottom_desc {
+  margin-bottom: 0.6rem;
+}
+#wash_detail .bottom_desc dd {
+  margin-bottom: 0.02rem;
+}
+#wash_detail .bottom_desc .desc {
+  background-color: #eff2f7;
+  width: 100%;
+  height: 0.37rem;
+  line-height: 0.37rem;
+}
+#wash_detail .bottom_desc .desc h3 {
+  color: #676968;
+  font-size: 0.14rem;
+  margin-left: 0.15rem;
+}
