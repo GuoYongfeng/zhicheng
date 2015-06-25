@@ -1,29 +1,89 @@
 #washcar{
+  header{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background-color: #eff2f7;
+    .search{
+      display: inline-block;
+      height: 0.5rem;
+      width: 10%;
+    }
+    .sort{
+      color: #666;
+      line-height: 0.5rem;
+      font-size: 0.14rem;
+      text-align: center;
+      li{
+        float: left;
+        width: 30%;
+      }
+      .search{
+        background: url(images/washcar_03.png) no-repeat;
+        width: 10%;
+        background-size: 120% 80%;
+        background-position: -0.1rem 0.05rem;
+      }
+      span{
+          display: inline-block;
+          width: 0.24rem;
+          height: 0.13rem;
+          background: url(images/washcar_02.png) no-repeat;
+          background-size: 100%;
+      }
+      .sort_selected{
+        color: #fff;
+        background-color: #55d368;
+        span{
+          background-image: url(images/washcar_01.png);
+        }
+      }
+      .nearby, .car, .smarty{
+          position: absolute;
+          overflow: hidden;
+          width: 30%;
+          background-color: #fff;
+          z-index: 10;
+          color: #666;
+          li{
+            width: 100%;
+            height: 0.37rem;
+            line-height: 0.37rem;
+            border-bottom: 1px solid #ccc;
+          }
+          .nearby_selected{
+            background-color: #ff8903;
+            color: #fff;
+          }
+      }
+      .nearby_selected{
+            background-color: #ff8903;
+            color: #fff;
+          }
+    }
 
+  }
   dl{
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.64rem;
   }
   .detail_common_wrap{
-    height: 0.9rem;
     padding: 0.075rem 0;
     background-color: #eff2f7;
     margin-top: 0.2rem;
-    h3{
-      float: left;
-      width: 13.3%;
-      height: 0.75rem;
-      line-height: 0.75rem;
-      text-align: center;
-      border-right: 1px solid #ccc;
-      font-size: 0.11rem;
-      color: #ff8903;
-    }
-    img{
+    position: relative;
+    .left_img{
       width: 0.55rem;
       height: 0.4rem;
       float: left;
       margin: 0.2rem 4%;
-      line-height: 0.75rem;
+    }
+    .right_img{
+      width: 0.5rem;
+      height: 0.28rem;
+      position: absolute;
+      right: 0;
+      border: none;
+      top: 0.3rem;
     }
     span{
       vertical-align: text-bottom;
@@ -33,11 +93,11 @@
     }
     .detail{
       margin-left: 27.3%;
-      line-height: 0.24rem;
       border-left: 1px solid #ccc;
       padding-left: 0.1rem;
       li{
-        position: relative;
+        height: 0.24rem;
+        line-height: 0.24rem;
       }
       i{
         color: #999999;
@@ -69,16 +129,10 @@
         margin-bottom: 0.04rem;
       }
       a{
-        // display: inline-block;
-        // width: 100%;
+        display: inline-block;
+        width: 100%;
       }
-      img{
-        width: 0.5rem;
-        height: 0.28rem;
-        position: absolute;
-        right: 0;
-        border: none;
-      }
+     
     }
     
   }

@@ -1,0 +1,57 @@
+#search dd {
+  background-color: #eff2f7;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.15rem;
+  padding-right: 0.15rem;
+}
+#search dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+}
+#search dd .common {
+  position: relative;
+}
+#search dd .common input {
+  width: 80%;
+  font-size: 0.13rem;
+  height: 0.3rem;
+  border: none;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+  color: #999;
+  background-color: #eff2f7;
+}
+#search .btns_wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.64rem;
+}
+#search .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.1rem;
+}
+#search .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 46%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#search .btns .enter {
+  background-color: #ff8903;
+  margin-left: 0.15rem;
+}
+#search .btns .register {
+  background-color: #55d368;
+}
