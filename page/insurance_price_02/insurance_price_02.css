@@ -45,7 +45,6 @@
   background-color: #55d368;
 }
 #insurance_price_02 .list {
-  width: 100%;
   background-color: #fff;
   height: 1.15rem;
 }
@@ -54,11 +53,33 @@
   height: 0.5rem;
   line-height: 0.5rem;
   margin-bottom: 0.15rem;
-  background-color: #ccc;
+  background-color: #fafbfc;
   float: left;
 }
 #insurance_price_02 .list .select_list .right {
   margin-left: 2%;
+}
+#insurance_price_02 .list .select_list span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url(images/icon_off.png) left center no-repeat;
+  background-size: 100%;
+}
+#insurance_price_02 .list .select_list .on {
+  background: url(images/icon_on.png) left center no-repeat;
+  background-size: 100%;
+}
+#insurance_price_02 .list .select_list label {
+  color: #666666;
+  font-size: 0.13rem;
+  display: inline-block;
+  padding-left: 0.15rem;
+  vertical-align: text-bottom;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-bottom: 0.1rem;
+  border-left: 1px solid #cccccc;
 }
 #insurance_price_02 dd {
   background-color: #eff2f7;

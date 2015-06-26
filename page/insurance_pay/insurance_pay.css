@@ -1,0 +1,128 @@
+#insurance_pay .header {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: #eff2f7;
+  font-size: 0.15rem;
+  color: #999;
+  text-align: center;
+}
+#insurance_pay .header li {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+#insurance_pay .header li span {
+  background-color: #ccc;
+  position: absolute;
+  display: inline-block;
+  width: 0.16rem;
+  height: 0.16rem;
+  left: 0.04rem;
+  border-radius: 0.08rem;
+  top: 0.16rem;
+  line-height: 0.16rem;
+  color: #fff;
+  font-size: 0.12rem;
+}
+#insurance_pay .header li h3 {
+  margin-left: 0.18rem;
+  font-size: 0.13rem;
+}
+#insurance_pay .header .selected {
+  background-color: #55d368;
+  color: #fff;
+}
+#insurance_pay .header .selected span {
+  color: #55d368;
+  background-color: #fff;
+}
+#insurance_pay .header .over_select {
+  color: #55d368;
+}
+#insurance_pay .header .over_select span {
+  color: #fff;
+  background-color: #55d368;
+}
+#insurance_pay dl {
+  margin-top: 0.1rem;
+  margin-bottom: 0.64rem;
+}
+#insurance_pay dd {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  padding: 0 0.15rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+#insurance_pay dd span {
+  float: left;
+}
+#insurance_pay dd i {
+  font-style: normal;
+  color: #fff;
+  background-color: #ff8903;
+  padding: 0.04rem;
+  margin-left: 1.2rem;
+  border-radius: 0.03rem;
+}
+#insurance_pay dd label {
+  float: right;
+}
+#insurance_pay dd .orange {
+  color: #ff8903;
+}
+#insurance_pay dd img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+  margin: 0.04rem -0.15rem 0 0;
+}
+#insurance_pay dd input {
+  height: 0.3rem;
+  width: 72%;
+  border: none;
+  font-size: 0.13rem;
+  padding-right: 0.03rem;
+  color: #999;
+  text-align: right;
+  background-color: #eff2f7;
+}
+#insurance_pay .higher {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#insurance_pay .btns_wrap {
+  position: relative;
+  height: 1.4rem;
+}
+#insurance_pay .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.7rem;
+}
+#insurance_pay .btns input,
+#insurance_pay .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#insurance_pay .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#insurance_pay .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}

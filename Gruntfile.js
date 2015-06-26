@@ -108,8 +108,14 @@ module.exports = function(grunt) {
                     "page/insurance_price/insurance_price.css": "page/insurance_price/insurance_price.less",
                     "page/insurance_price_01/insurance_price_01.css": "page/insurance_price_01/insurance_price_01.less",
                     "page/insurance_price_02/insurance_price_02.css": "page/insurance_price_02/insurance_price_02.less",
+                    "page/miaosha/miaosha.css": "page/miaosha/miaosha.less",
+                    "page/entering/entering.css": "page/entering/entering.less",
+                    "page/insurance_confirm/insurance_confirm.css": "page/insurance_confirm/insurance_confirm.less",
+                    "page/insurance_history/insurance_history.css": "page/insurance_history/insurance_history.less",
+                    "page/insurance_pay/insurance_pay.css": "page/insurance_pay/insurance_pay.less",
                     
 
+                    
                 }
             }
         },

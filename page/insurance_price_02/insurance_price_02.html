@@ -33,7 +33,6 @@
 				<h3>完成</h3>
 			</li>
 		</ul>
-		<form action="" method="post">
 			<dl>
 				<dd>
 					<img src="images/icon_01.png">
@@ -50,10 +49,22 @@
 				</dd>
 				<dd class="list">
 					<ul class="select_list">
-						<li></li>
-						<li class="right"></li>
-						<li></li>
-						<li class="right"></li>
+						<li data-info="0">
+							<span></span>
+							<label>新车未上排</label>
+						</li>
+						<li class="right" data-info="1">
+							<span></span>
+							<label>同上年度</label>
+						</li>
+						<li data-info="2">
+							<span></span>
+							<label>交强险</label>
+						</li>
+						<li class="right" data-info="3">
+							<span></span>
+							<label>车船税</label>
+						</li>
 					</ul>
 				</dd>
 				<dd>
@@ -98,9 +109,8 @@
 				</dd>
 			</dl>
 			<div class="btns">
-				<input type="button" class="post" value="提交">
+				<a href="javascript:void(0);" class="post">提交</a>
 			</div>
-		</form>
 		<div class="nav">
 			<ul>
 				<li><img src="../../static/images/login_car.png" alt=""></li>

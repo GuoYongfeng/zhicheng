@@ -1,5 +1,20 @@
 # 项目日志
 
+## 2015-06-26 20:35
+
+* 新增page/wash_order_suc，完成洗车订单详情页，提交成功状态
+* 新增page/insurance，完成保险理赔导航功能页面
+* 新增page/myinsurance，完成我的保单页面，含待确认保单和历史保单
+* 新增page/insurance_query，完成我的保单查询页面
+* 新增page/insurance_price，完成精准报价页面--输入城市、年龄、驾龄查询报价
+* 新增page/insurance_price_01，完成精准报价页面--输入保费参考价格查询报价
+* 新增page/insurance_price_02，完成精准报价页面--输入车牌号、姓名等信息查询报价
+* 新增page/miaosha，完成爆品秒杀页面
+* 新增page/entering，完成信息录入页面，其中还剩五六项在PSD图没看到，需要完善
+* 新增page/insurance_confirm，完成保单确认页面，图片可伸缩
+* 新增page/insurance_history，完成历史保单查询页面
+* 新增page/insurance_pay，完成保单代缴页面
+
 ## 2015-06-26 09:41
 
 * 新增page/wash_detail，完成1元洗车提交订单页面
