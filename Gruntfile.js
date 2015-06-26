@@ -105,7 +105,9 @@ module.exports = function(grunt) {
                     "page/insurance/insurance.css": "page/insurance/insurance.less",
                     "page/myinsurance/myinsurance.css": "page/myinsurance/myinsurance.less",
                     "page/insurance_query/insurance_query.css": "page/insurance_query/insurance_query.less",
-
+                    "page/insurance_price/insurance_price.css": "page/insurance_price/insurance_price.less",
+                    "page/insurance_price_01/insurance_price_01.css": "page/insurance_price_01/insurance_price_01.less",
+                    "page/insurance_price_02/insurance_price_02.css": "page/insurance_price_02/insurance_price_02.less",
                     
 
                 }
