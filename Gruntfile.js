@@ -101,7 +101,12 @@ module.exports = function(grunt) {
                     "page/comment/comment.css": "page/comment/comment.less",
                     "page/maintain/maintain.css": "page/maintain/maintain.less",
                     "page/maintain_order/maintain_order.css": "page/maintain_order/maintain_order.less",
+                    "page/wash_order_suc/wash_order_suc.css": "page/wash_order_suc/wash_order_suc.less",
+                    "page/insurance/insurance.css": "page/insurance/insurance.less",
+                    "page/myinsurance/myinsurance.css": "page/myinsurance/myinsurance.less",
+                    "page/insurance_query/insurance_query.css": "page/insurance_query/insurance_query.less",
 
+                    
 
                 }
             }
