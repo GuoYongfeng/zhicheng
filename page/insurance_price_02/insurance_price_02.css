@@ -44,6 +44,22 @@
   color: #fff;
   background-color: #55d368;
 }
+#insurance_price_02 .list {
+  width: 100%;
+  background-color: #fff;
+  height: 1.15rem;
+}
+#insurance_price_02 .list .select_list li {
+  width: 48%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-bottom: 0.15rem;
+  background-color: #ccc;
+  float: left;
+}
+#insurance_price_02 .list .select_list .right {
+  margin-left: 2%;
+}
 #insurance_price_02 dd {
   background-color: #eff2f7;
   height: 0.5rem;
@@ -100,6 +116,8 @@
 }
 #insurance_price_02 dd .common .comment {
   background-color: #fff;
+  text-align: left;
+  padding-left: 0.1rem;
 }
 #insurance_price_02 dd select {
   margin-top: 0.08rem;
