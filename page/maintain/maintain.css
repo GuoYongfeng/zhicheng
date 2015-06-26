@@ -1,0 +1,53 @@
+#maintain dl {
+  margin-bottom: 0.64rem;
+}
+#maintain dd {
+  width: 100%;
+  padding: 0.07rem 0;
+  background-color: #eff2f7;
+  margin-top: 0.15rem;
+  position: relative;
+}
+#maintain dd .common {
+  padding: 0 0.15rem;
+  margin-left: 0.5rem;
+  font-size: 0.13rem;
+  border-left: 1px solid #ccc;
+  width: 68%;
+}
+#maintain dd .common h1,
+#maintain dd .common h3 {
+  color: #666;
+  line-height: 0.3rem;
+}
+#maintain dd .common h1 {
+  font-weight: bold;
+}
+#maintain dd .common p {
+  color: #999;
+  line-height: 0.2rem;
+}
+#maintain dd .common span {
+  color: #ff8903;
+  float: right;
+}
+#maintain dd img {
+  width: 0.5rem;
+  height: 1.12rem;
+  float: left;
+}
+#maintain dd .dir {
+  width: 0.5rem;
+  height: 0.28rem;
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+#maintain dd a {
+  position: absolute;
+  width: 80%;
+  display: inline-block;
+  height: 0.9rem;
+  top: 0.4rem;
+  left: 0.52rem;
+}

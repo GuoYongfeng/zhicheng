@@ -122,12 +122,13 @@
 #wash_detail .btns_wrap {
   position: relative;
   margin: 0.15rem 0;
+  text-align: center;
 }
 #wash_detail .btns input,
 #wash_detail .btns a {
   display: inline-block;
   text-align: center;
-  width: 47.6%;
+  width: 42.6%;
   height: 0.45rem;
   line-height: 0.45rem;
   color: #fff;

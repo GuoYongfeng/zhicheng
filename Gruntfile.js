@@ -97,7 +97,12 @@ module.exports = function(grunt) {
                     "page/washcar/washcar.css": "page/washcar/washcar.less",
                     "page/search/search.css": "page/search/search.less",
                     "page/wash_detail/wash_detail.css": "page/wash_detail/wash_detail.less",
-                    
+                    "page/wash_order_detail/wash_order_detail.css": "page/wash_order_detail/wash_order_detail.less",
+                    "page/comment/comment.css": "page/comment/comment.less",
+                    "page/maintain/maintain.css": "page/maintain/maintain.less",
+                    "page/maintain_order/maintain_order.css": "page/maintain_order/maintain_order.less",
+
+
                 }
             }
         },

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>添加车辆</title>
+	<title>上门保养</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="address=no" name="format-detection">
@@ -10,23 +10,15 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="stylesheet" type="text/css" href="../../static/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../static/css/common.css">
-	<link rel="stylesheet" type="text/css" href="addcar.css">
+	<link rel="stylesheet" type="text/css" href="maintain_order.css">
 	<script type="text/javascript" src="../../static/js/common.js"></script>
 </head>
 <body>
-	<div id="addcar">
-		<header class="head">
-			<img src="images/query_01.png">
-			<span>查询省份</span>
-			<a href="" class="province">
-				<span>河北</span>
-				<img src="images/query_02.png">
-			</a>
-		</header>
+	<div id="maintain_order">
 		<form action="" method="post">
 			<dl>
 				<dd>
-					<img src="images/query_03.png">
+					<img src="images/order_01.png">
 					<div class="common">
 						<span>车牌号</span>
 						<label>冀</label>
@@ -39,26 +31,52 @@
 					</p>
 				</dd>
 				<dd>
-					<img src="images/query_04.png">
+					<img src="images/order_02.png">
 					<div class="common">
-						<span>身份证号</span>
-						<input type="text" value="" placeholder="请输入您的身份证号">
+						<span>地址</span>
+						<input type="text" value="" placeholder="请输入您的地址">
 					</div>
 				</dd>
 				<dd>
-					<img src="images/query_05.png">
+					<img src="images/order_03.png">
 					<div class="common">
-						<span>发动机号</span>
-						<input type="text" value="" placeholder="请输入发动机号后四位">
+						<span>时间</span>
+						<input type="date" value="" placeholder="2015-06-23 星期二 上午">
+					</div>
+				</dd>
+				<dd class="tips">
+					<p class="blue">
+						最终服务时间以客服确认为准
+					</p>
+				</dd>
+				<dd>
+					<img src="images/order_04.png">
+					<div class="common">
+						<span>姓名</span>
+						<input type="text" value="" placeholder="请输入您的姓名">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/order_05.png">
+					<div class="common">
+						<span>手机号码</span>
+						<input type="text" value="" placeholder="请输入您的手机号">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/order_06.png">
+					<div class="common">
+						<h3>留言（选填）</h3>
+						<input type="text" class="comment" value="">
 					</div>
 				</dd>
 			</dl>
-			<h3>
-				所填信息为当地交管局查询所必须信息，我们将对您的信息严格保密，请放心填写。
-			</h3>
+			<div class="btns_wrap">
 			<div class="btns">
-				<a href="javascript:void(0)" class="addcar">保存</a>
+				<input type="text" class="price" value="￥300.00">
+				<a href="javascript:void(0);" class="order">提交订单</a>
 			</div>
+		</div>
 		</form>
 		<div class="nav">
 			<ul>
@@ -68,6 +86,6 @@
 			</ul>
 		</div>
 	</div>
-<script type="text/javascript" src="addcar.js"></script>
+<script type="text/javascript" src="maintain_order.js"></script>
 </body>
 </html>

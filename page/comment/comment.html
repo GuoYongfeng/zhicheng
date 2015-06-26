@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>评价</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="address=no" name="format-detection">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="../../static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<script type="text/javascript" src="../../static/js/common.js"></script>
+	<script type="text/javascript" src="../../static/js/rating/rating.js"></script>
+
+</head>
+<body>
+	<div id="comment">
+		<dl>
+			<dd>
+				<img class="write_icon" src="images/w.png">
+				<div class="common">
+					<div id="star"></div>
+					<textarea class="word"></textarea>
+				</div>
+			</dd>
+		</dl>
+		<p>
+			您还可以输入<span id="number">100</span>个字
+		</p>
+		<div class="btns">
+			<a href="javascript:void(0);" class="commit">提交</a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><img src="../../static/images/login_car.png" alt=""></li>
+				<li><img src="../../static/images/login_findcar.png" alt=""></li>
+				<li><img src="../../static/images/login_me.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('.word').bind('input propertychange', function(e){
+			var val = $(this).val().length,
+				num = 100 - val;
+
+			$('#number').text(num);
+
+			// if(num < 1){
+			// 	$(this).attr({'readonly': true});
+			// }
+			// else{
+			// 	$(this).removeAttr('readOnly');
+			// }
+		});
+
+		$('#star').raty();
+
+		
+		
+	</script>
+</body>
+</html>
