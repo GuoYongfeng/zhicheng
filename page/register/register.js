@@ -19,6 +19,7 @@ function initModal () {
 	}
 }
 
+
 $(function(){
 	var register = $('.register'),
 		modal,
