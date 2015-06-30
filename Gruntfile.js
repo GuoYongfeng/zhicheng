@@ -114,7 +114,8 @@ module.exports = function(grunt) {
                     "page/insurance_history/insurance_history.css": "page/insurance_history/insurance_history.less",
                     "page/insurance_pay/insurance_pay.css": "page/insurance_pay/insurance_pay.less",
                     "page/award/award.css": "page/award/award.less",
-
+                    "page/award_suc/award_suc.css": "page/award_suc/award_suc.less",
+                    "page/award_fail/award_fail.css": "page/award_fail/award_fail.less",
                     
                 }
             }
