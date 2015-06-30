@@ -1,5 +1,12 @@
 # 项目日志
 
+## 2015-06-30 08:57
+
+* 增补page/ward，我要抽奖页面
+* 增补page/award_suc，抽奖成功
+* 增补page/award_fail，抽奖失败
+
+
 ## 2015-06-26 20:35
 
 * 新增page/wash_order_suc，完成洗车订单详情页，提交成功状态
