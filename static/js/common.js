@@ -3131,8 +3131,6 @@ $(function(){
     			    _this.resetList();
     			    _this.btnClick(el);
               
-              console.log(item);
-
     				_this.render(_this.dom.targets[item], data);
 
     			});
@@ -3203,13 +3201,6 @@ $(function(){
                     		'<ul class="online"></ul>' +
                     		'<ul class="car"></ul>' +
                     		'<ul class="self"></ul>' +
-                    		'<div class="nav">' +
-                    			'<ul>' +
-                    				'<li class="li_online_on" data-on="li_online_on" data-off="li_online_off"></li>' +
-                    				'<li class="li_car_off" data-on="li_car_on" data-off="li_car_off"></li>' +
-                    				'<li class="li_self_off" data-on="li_self_on" data-off="li_self_off"></li>' +
-                    			'</ul>' +
-                    		'</div>' +
                     	'</div>';
                     	
             $('body').append(tpls);

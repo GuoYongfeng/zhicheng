@@ -224,6 +224,7 @@
   max-width: none;
 }
 
+
 /*index*/
 #index .online,
 #index .car,
@@ -233,6 +234,7 @@
   width: 20.26%;
   bottom: 0.72rem;
   text-align: center;
+  background-color: #fff;
 }
 #index .online li,
 #index .car li,
@@ -242,7 +244,7 @@
   line-height: 0.45rem;
   border-bottom: 1px solid #bdbdbd;
   position: relative;
-  background-color: #fff;
+  
 }
 #index .online li a,
 #index .car li a,
@@ -253,8 +255,8 @@
 #index .car li .pos .z,
 #index .self li .pos .z {
   position: absolute;
-  color: #ccc;
-  top: 0.25rem;
+  color: #bdbdbd;
+  top: 0.24rem;
   font-size: 0.2rem;
   left: 0.26rem;
 }
@@ -284,4 +286,5 @@
 #index .common-border {
   border: 1px solid #bdbdbd;
 }
+
 
