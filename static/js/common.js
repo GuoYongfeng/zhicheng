@@ -3126,11 +3126,15 @@ $(function(){
     		lists.each(function(item, index, input){
     			var el = $(index),
     				data = _this.data[item];
-    
+          
     			el.on('click', function(e){
     			    _this.resetList();
     			    _this.btnClick(el);
+              
+              console.log(item);
+
     				_this.render(_this.dom.targets[item], data);
+
     			});
     		});
     
@@ -3151,9 +3155,9 @@ $(function(){
     		lists.each(function(item, index, input){
     			var el = $(index);
     			var on = el.data('on');
-    	        var off = el.data('off');
-    	        
-    	        el.removeClass(on).addClass(off);
+	        var off = el.data('off');
+	        
+	        el.removeClass(on).addClass(off);
     	        
     		});
     	},
@@ -3162,6 +3166,8 @@ $(function(){
     		this.reset();
     
     		var templates = this.tpls(data);
+        // console.log(templates);
+
     		el.append(templates);
     		el.addClass('common-border');
     	},
@@ -3176,7 +3182,7 @@ $(function(){
     		// data is a array
     		var data = data || [],
     			tpl = [];
-    
+        
     		data.forEach(function(item, index, input){
     			if( index < data.length -1 )
     				tpl.push('<li><a href= "' + item.url + '">' + item.value + '</a></li>');
@@ -3189,7 +3195,6 @@ $(function(){
     				);
     
     		});
-    
     		return tpl.join('');
     	},
     		

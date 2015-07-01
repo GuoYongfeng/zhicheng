@@ -44,9 +44,10 @@
   width: 33.33%;
   height: 0.49rem;
   float: left;
-  background-size: 50%;
-  background-position: 0.3rem 0.04rem;
+
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: 0 0.04rem;
 }
 .li_online_on{
     background-image: url('../images/002.png');
@@ -246,6 +247,7 @@
   line-height: 0.45rem;
   border-bottom: 1px solid #bdbdbd;
   position: relative;
+  background-color: #fff;
 }
 #index .online li a,
 #index .car li a,
@@ -257,17 +259,17 @@
 #index .self li .pos .z {
   position: absolute;
   color: #ccc;
-  top: 27px;
-  font-size: 40px;
-  left: 27px;
+  top: 0.25rem;
+  font-size: 0.2rem;
+  left: 0.26rem;
 }
 #index .online li .pos .y,
 #index .car li .pos .y,
 #index .self li .pos .y {
   position: absolute;
-  font-size: 40px;
-  left: 27px;
-  top: 25px;
+  font-size: 0.2rem;
+  left: 0.26rem;
+  top: 0.23rem;
   color: #fff;
 }
 #index .online .last,
