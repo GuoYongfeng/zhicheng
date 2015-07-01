@@ -3105,15 +3105,15 @@ $(function(){
     	
     	init: function(){
             
-            this.create();
-            
-            this.dom = {
-        		online: $('.online'),
-        		car: $('.car'),
-        		self: $('.self'),
-        		list: $('.nav li'),
-        		targets: [$('.online'), $('.car'), $('.self')]
-            };
+        this.create();
+        
+        this.dom = {
+      		online: $('.online'),
+      		car: $('.car'),
+      		self: $('.self'),
+      		list: $('.nav li'),
+      		targets: [$('.online'), $('.car'), $('.self')]
+        };
             
     		this.bind();
     

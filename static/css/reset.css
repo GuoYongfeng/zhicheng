@@ -192,6 +192,6 @@ img{
 a, img {
     -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
 }
-a {outline: none;}
+a, input {outline: none;}
 a:active {outline: none;}
 a:focus { outline:0; }
