@@ -229,7 +229,7 @@
 #index .online,
 #index .car,
 #index .self {
-  position: absolute;
+  position: fixed;
   border-radius: 0.05rem;
   width: 20.26%;
   bottom: 0.72rem;
