@@ -44,6 +44,27 @@
   width: 33.33%;
   height: 0.49rem;
   float: left;
+  background-size: 50%;
+  background-position: 0.3rem 0.04rem;
+  background-repeat: no-repeat;
+}
+.li_online_on{
+    background-image: url('../images/002.png');
+}
+.li_online_off{
+    background-image: url('../images/001.png');
+}
+.li_car_on{
+    background-image: url('../images/004.png');
+}
+.li_car_off{
+    background-image: url('../images/003.png');
+}
+.li_self_on{
+    background-image: url('../images/006.png');
+}
+.li_self_off{
+    background-image: url('../images/005.png');
 }
 /* slider */
 .ui-slide-wrap {
@@ -206,3 +227,64 @@
   height: 14px;
   max-width: none;
 }
+
+/*index*/
+#index .online,
+#index .car,
+#index .self {
+  position: absolute;
+  border-radius: 0.05rem;
+  width: 20.26%;
+  bottom: 0.72rem;
+  text-align: center;
+}
+#index .online li,
+#index .car li,
+#index .self li {
+  font-size: 0.13rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-bottom: 1px solid #bdbdbd;
+  position: relative;
+}
+#index .online li a,
+#index .car li a,
+#index .self li a {
+  color: #666;
+}
+#index .online li .pos .z,
+#index .car li .pos .z,
+#index .self li .pos .z {
+  position: absolute;
+  color: #ccc;
+  top: 27px;
+  font-size: 40px;
+  left: 27px;
+}
+#index .online li .pos .y,
+#index .car li .pos .y,
+#index .self li .pos .y {
+  position: absolute;
+  font-size: 40px;
+  left: 27px;
+  top: 25px;
+  color: #fff;
+}
+#index .online .last,
+#index .car .last,
+#index .self .last {
+  border: none;
+}
+#index .online {
+  left: 6.4%;
+}
+#index .car {
+  left: 39.73%;
+}
+#index .self {
+  right: 6.4%;
+}
+#index .common-border {
+  border: 1px solid #bdbdbd;
+}
+
