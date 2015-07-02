@@ -3129,23 +3129,24 @@ $(function(){
           
     			el.on('click', function(e){
     			    var wrap = $(this).data('wrap');
+    			    var on = $(this).data('on');
+    			    var flag = $(this).is('.' + on);
     			    
     			    _this.btnClick(el);
 
-    			    if(!$(this).is('.checked')){
+    			    if( !$(this).is('.checked')){
     			        console.log(' 本身被选中');
     			        _this.render(_this.dom.targets[item], data); 
     				    $(this).addClass('checked');
     			        
-    			    }else{
+    			    }else if( $(this).is('.checked') || !flag ){
     			        $(this).removeClass('checked');
     			        console.log(' 本身没有被选中');
     			        $("." + wrap).html('');
     			    }
     			    
-    			 var 
-    			 if($(this).is)
-    			        
+    			    // checked false 没有被点击过 或者选择隐藏
+    			    // checked true  选择展示
 
     			});
     		});
