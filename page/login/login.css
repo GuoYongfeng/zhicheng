@@ -48,22 +48,17 @@
   background-color: #eff2f7;
 }
 #login .btns_wrap {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0.64rem;
-}
-#login .btns {
+  width: 100%;
   position: absolute;
   left: 4%;
-  right: 4%;
-  bottom: 0.1rem;
+  right: 0;
+  bottom: 0.64rem;
 }
 #login .btns input,
 #login .btns a {
   display: inline-block;
   text-align: center;
-  width: 46%;
+  width: 43%;
   height: 0.45rem;
   line-height: 0.45rem;
   color: #fff;
