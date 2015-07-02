@@ -3105,15 +3105,15 @@ $(function(){
     	
     	init: function(){
             
-        this.create();
-        
-        this.dom = {
-      		online: $('.online'),
-      		car: $('.car'),
-      		self: $('.self'),
-      		list: $('.nav li'),
-      		targets: [$('.online'), $('.car'), $('.self')]
-        };
+            this.create();
+            
+            this.dom = {
+          		online: $('.online'),
+          		car: $('.car'),
+          		self: $('.self'),
+          		list: $('.nav li'),
+          		targets: [$('.online'), $('.car'), $('.self')]
+            };
             
     		this.bind();
     
@@ -3128,14 +3128,41 @@ $(function(){
     				data = _this.data[item];
           
     			el.on('click', function(e){
-    			    _this.resetList();
+    			    var wrap = $(this).data('wrap');
+    			    
     			    _this.btnClick(el);
-              
-    				_this.render(_this.dom.targets[item], data);
+
+    			    if(!$(this).is('.checked')){
+    			        console.log(' 本身被选中');
+    			        _this.render(_this.dom.targets[item], data); 
+    				    $(this).addClass('checked');
+    			        
+    			    }else{
+    			        $(this).removeClass('checked');
+    			        console.log(' 本身没有被选中');
+    			        $("." + wrap).html('');
+    			    }
+    			    
+    			 var 
+    			 if($(this).is)
+    			        
 
     			});
     		});
     
+    	},
+    	
+    	checkSiblings: function(sibligs){
+    	    var flag = false;
+    	    
+    	    sibligs.each(function(item, index, input){
+    	        var el = $(index);
+    	        if(el.is('.checked')){
+    	            flag = true;
+    	        }
+    	    });
+    	    
+    	    return flag;
     	},
     	
     	btnClick: function(el){
@@ -3143,6 +3170,7 @@ $(function(){
     	  var on = el.data('on');
     	  var off = el.data('off');
     	  
+    	  this.resetList();
     	  el.removeClass(off).addClass(on);
     	 
     	},
@@ -3153,24 +3181,24 @@ $(function(){
     		lists.each(function(item, index, input){
     			var el = $(index);
     			var on = el.data('on');
-	        var off = el.data('off');
-	        
-	        el.removeClass(on).addClass(off);
+    	        var off = el.data('off');
+    	        
+    	        el.removeClass(on).addClass(off);
     	        
     		});
     	},
     
     	render: function(el, data){
-    		this.reset();
+    	   
+    		this.removeList();
     
     		var templates = this.tpls(data);
-        // console.log(templates);
-
+  
     		el.append(templates);
     		el.addClass('common-border');
     	},
     
-    	reset: function(){
+    	removeList: function(){
     		this.dom.online.html('').removeClass('common-border');
     		this.dom.car.html('').removeClass('common-border');
     		this.dom.self.html('').removeClass('common-border');

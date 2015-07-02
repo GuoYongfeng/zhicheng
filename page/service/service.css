@@ -2,17 +2,16 @@
   margin-bottom: 0.6rem;
 }
 #service .content {
-  width: 100%;
-  margin: 0.02rem 1.5% 0 1.5%;
+  margin: 0.02rem 0 0 2%;
   border-radius: 0.05rem;
 }
 #service .content .left_wrap {
   float: left;
-  width: 37.33%;
-  height: 2.1rem;
+  width: 38%;
+  height: 1.59rem;
   background-color: #ffcc00;
   position: relative;
-  background-size: 34% 20%;
+  background-size: 34% 26%;
   background-repeat: no-repeat;
   background-position: 0.4rem 0.66rem;
 }
@@ -37,13 +36,13 @@
   background-image: url(images/21.png);
 }
 #service .content .right_wrap {
-  margin-left: 39%;
-  width: 60.6%;
+  margin-left: 40.5%;
+  width: 60.4%;
 }
 #service .content .right_wrap li {
   background-color: #ff8903;
-  height: 0.665rem;
-  line-height: 0.665rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
   margin-right: 0.1rem;
   margin-bottom: 0.05rem;
   background-size: 18% 50%;
