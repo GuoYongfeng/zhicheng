@@ -1,17 +1,17 @@
 #service {
-  margin-bottom: 0.64rem;
+  margin-bottom: 0.58rem;
 }
 #service .content {
-  margin: 0.06rem 0 0 2.4%;
+  margin: 0.02rem 0 0 2.4%;
   border-radius: 0.05rem;
 }
 #service .content .left_wrap {
   float: left;
   width: 38%;
-  height: 2.04rem;
+  height: 1.6rem;
   background-color: #ffcc00;
   position: relative;
-  background-size: 42% 25%;
+  background-size: 40% 28%;
   background-repeat: no-repeat;
   background-position: 0.4rem 0.66rem;
 }
@@ -41,8 +41,8 @@
 }
 #service .content .right_wrap li {
   background-color: #ff8903;
-  height: 0.65rem;
-  line-height: 0.65rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
   margin-right: 0.1rem;
   margin-bottom: 0.05rem;
   background-size: 18% 50%;
