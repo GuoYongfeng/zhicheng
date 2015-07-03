@@ -48,7 +48,6 @@
   background-color: #eff2f7;
 }
 #login .btns_wrap {
-  width: 100%;
   position: absolute;
   left: 4%;
   right: 0;
@@ -58,7 +57,7 @@
 #login .btns a {
   display: inline-block;
   text-align: center;
-  width: 43%;
+  width: 45%;
   height: 0.45rem;
   line-height: 0.45rem;
   color: #fff;

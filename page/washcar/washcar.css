@@ -110,7 +110,7 @@
   font-size: 0.12rem;
   font-style: normal;
   vertical-align: text-bottom;
-  margin-right: 0.3rem;
+  margin-right: 0.33rem;
 }
 #washcar .detail_common_wrap .detail .i_right {
   position: absolute;
@@ -133,6 +133,11 @@
 }
 #washcar .detail_common_wrap .detail .middle_line {
   margin-bottom: 0.04rem;
+}
+#washcar .detail_common_wrap .detail .price {
+  color: #ff8903;
+  float: right;
+  margin-right: 0.4rem;
 }
 #washcar .detail_common_wrap .detail a {
   display: inline-block;
