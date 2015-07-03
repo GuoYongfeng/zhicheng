@@ -3141,6 +3141,7 @@ $(function(){
         			    } else {
         			        $(this).removeClass('checked');
         			        $("." + wrap).html('');
+                      $("." + wrap).removeClass('common-border');
         			    }
         			    
     			    }else{

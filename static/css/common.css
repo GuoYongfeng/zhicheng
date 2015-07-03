@@ -214,7 +214,7 @@
 /* rating */
 /* 计算评分的长度：分数 * 19 */
 .detail_common_wrap .car_rate_box {
-  background: url(http://cdn.ppzuche.com/static/pc/car/widget/searchlist/images/gray.e175c4e7.png) no-repeat;
+  background: url(../../static/images/gray.png) no-repeat;
   height: 20px;
   display: inline-block;
   position: relative;
