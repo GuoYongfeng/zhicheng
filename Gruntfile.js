@@ -116,7 +116,14 @@ module.exports = function(grunt) {
                     "page/award/award.css": "page/award/award.less",
                     "page/award_suc/award_suc.css": "page/award_suc/award_suc.less",
                     "page/award_fail/award_fail.css": "page/award_fail/award_fail.less",
-                    
+                    "page/dispose_list/dispose_list.css": "page/dispose_list/dispose_list.less",
+                    "page/dispose_peccancy/dispose_peccancy.css": "page/dispose_peccancy/dispose_peccancy.less",
+                    "page/dispose_handle/dispose_handle.css": "page/dispose_handle/dispose_handle.less",
+                    "page/dispose_query/dispose_query.css": "page/dispose_query/dispose_query.less",
+                    "page/dispose_order/dispose_order.css": "page/dispose_order/dispose_order.less",
+
+
+
                 }
             }
         },

@@ -1,5 +1,14 @@
 # 项目日志
 
+## 2015-07-03 19:59
+
+* 新增page/dispose_list，页面11：多次登录违章列表 已完成
+* 新增page/dispose_peccancy，页面4：查询车辆违章有 已完成
+* 新增page/dispose_handle，页面3：查询车辆违章无 已完成
+* 新增page/dispose_query，页面5：多次查询登录 已完成
+* 新增page/dispose_order，页面12：提交订单 
+
+
 ## 2015-07-02 20:14
 
 ### BUG LIST
