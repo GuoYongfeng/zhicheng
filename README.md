@@ -4,12 +4,12 @@
 
 |序列|特征|描述|优先级|状态|备注|
 |----|----|----|----|----|---|
-|1|BUG|安卓手机上查看头像显示不规则|10|fixed|去掉border或加圆框图|
+|1|BUG|安卓手机上查看头像显示不规则|10|fixed|common.css|
 |2|BUG|login登录页面按钮位置问题|7|fixed|login.css|
-|3|BUG|上门保养页面的手机号码输入框|10|fixed|小川需要同步代码|
+|3|BUG|上门保养页面的手机号码输入框|10|fixed||
 |4|BUG|驾管服务的首页菜单在部分安卓机表现出高度不一致问题|10|fixed|service.css|
 |5|BUG|上门保养列表页a的高度|9|fixed|maintain.css|
-|6|BUG|我的订单处的icon没有|9|fixed|小川需要同步代码|
+|6|BUG|我的订单处的icon没有|9|fixed|myorder|
 
 # 2015-07-03 19:59
 
