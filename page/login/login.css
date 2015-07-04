@@ -48,10 +48,10 @@
   background-color: #eff2f7;
 }
 #login .btns_wrap {
-  position: absolute;
-  left: 4%;
-  right: 0;
-  bottom: 0.64rem;
+  margin-top: 1.5rem;
+}
+#login .btns {
+  margin-left: 4%;
 }
 #login .btns input,
 #login .btns a {
