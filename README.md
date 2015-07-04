@@ -6,13 +6,10 @@
 |----|----|----|----|----|---|
 |1|BUG|安卓手机上查看头像显示不规则|10|fixed|去掉border或加圆框图|
 |2|BUG|login登录页面按钮位置问题|7|fixed|login.css|
-|3|BUG|上门保养也没的输入时间和手机号码两处需要修改|10|未解决||
-|4|BUG|点击document的区域应该让导航nav展示部分消失|9|未解决||
-|5|BUG|驾管服务的首页菜单在部分安卓机表现出高度不一致问题|10|fixed|service.css|
-|6|BUG|所有a和li元素的outline问题|8|未解决||
-|7|BUG|上门保养列表页a的高度|9|fixed|maintain.css|
-|8|BUG|我的订单处的icon没有|9|fixed|小川需要同步代码|
-|9|BUG|所有select框调整|8|未解决||
+|3|BUG|上门保养页面的手机号码输入框|10|fixed|小川需要同步代码|
+|4|BUG|驾管服务的首页菜单在部分安卓机表现出高度不一致问题|10|fixed|service.css|
+|5|BUG|上门保养列表页a的高度|9|fixed|maintain.css|
+|6|BUG|我的订单处的icon没有|9|fixed|小川需要同步代码|
 
 # 2015-07-03 19:59
 
