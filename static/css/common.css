@@ -2,8 +2,8 @@
 .header {
   width: 100%;
   background-color: #55d368;
-  height: 1.24rem;
-  line-height: 1.24rem;
+  height: 1.14rem;
+  line-height: 1.14rem;
 }
 .header .person {
   width: 1rem;
@@ -18,9 +18,9 @@
   width: 0.8rem;
   height: 0.8rem;
   margin: 0.15rem;
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   float: left;
-  border: 0.06rem solid #aae9b4;
+  /*border: 0.01rem solid #aae9b4;*/
 }
 .header h2 {
   color: #fff;
