@@ -10,6 +10,7 @@
 |4|BUG|驾管服务的首页菜单在部分安卓机表现出高度不一致问题|10|fixed|service.css|
 |5|BUG|上门保养列表页a的高度|9|fixed|maintain.css|
 |6|BUG|我的订单处的icon没有|9|fixed|myorder|
+|7|BUG|修复input获取光标后被键盘顶上去的问题|9|fixed|common.js|
 
 # 2015-07-03 19:59
 
