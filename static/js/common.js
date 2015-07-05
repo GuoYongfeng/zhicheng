@@ -3041,20 +3041,20 @@ window.$ === undefined && (window.$ = Zepto)
 })();
 
 // input fix
-// $(function(){
-//     $('input')
-//         .bind('focus',function(){  
-//             $('.nav').css({'position':'static', 'bottom':0});  
-//             // alert('focus');
-//             // $('body').height($(window).height()+'px');
-//             // $('#login').height($(window).height()+'px');
-//         })
-//         .bind('blur',function(){  
-//             // alert('blur');
-//             $('.nav').css({'position':'fixed', 'bottom':0});  
-//             // $('#login').height('auto'); 
-//         });  
-// })();
+$(function(){
+    $('input')
+        .bind('focus',function(){  
+            $('.nav').css({'position':'static', 'bottom':'-0.64rem'});  
+     
+            // $('body').height($(window).height()+'px');
+            // $('#login').height($(window).height()+'px');
+        })
+        .bind('blur',function(){  
+        
+            $('.nav').css({'position':'fixed', 'bottom':0});  
+            // $('#login').height('auto'); 
+        });  
+});
 
 
 // tab
