@@ -1,5 +1,71 @@
 # 项目日志
 
+## 2015-07-04 14:39
+
+|序列|特征|描述|优先级|状态|备注|
+|----|----|----|----|----|---|
+|1|BUG|安卓手机上查看头像显示不规则|10|fixed|common.css|
+|2|BUG|login登录页面按钮位置问题|7|fixed|login.css|
+|3|BUG|上门保养页面的手机号码输入框|10|fixed||
+|4|BUG|驾管服务的首页菜单在部分安卓机表现出高度不一致问题|10|fixed|service.css|
+|5|BUG|上门保养列表页a的高度|9|fixed|maintain.css|
+|6|BUG|我的订单处的icon没有|9|fixed|myorder|
+|7|BUG|修复input获取光标后被键盘顶上去的问题|9|fixed|common.js|
+
+# 2015-07-03 19:59
+
+* 新增page/dispose_list，页面11：多次登录违章列表 已完成
+* 新增page/dispose_peccancy，页面4：查询车辆违章有 已完成
+* 新增page/dispose_handle，页面3：查询车辆违章无 已完成
+* 新增page/dispose_query，页面5：多次查询登录 已完成
+* 新增page/dispose_order，页面12：提交订单 
+
+
+## 2015-07-02 20:14
+
+### BUG LIST
+
+* 1. 头像的边框（3）
+* 2. 底下tab点击，再次点击关闭（解决，修改了common.js和nav部分）
+* 3. 忘记密码被遮罩了（解决，修改了login.css）
+* 4. 整体高度（5）
+* 5. 入口页调成一页（解决，service.css）
+
+## 2015-07-01 10:15
+
+* 整合底部导航条功能，将功能集合在common.ja，删除各文件的.nav部分
+* fix部分页面的导航条冲突的bug
+
+## 2015-06-30 08:57
+
+* 增补page/ward，我要抽奖页面
+* 增补page/award_suc，抽奖成功
+* 增补page/award_fail，抽奖失败
+
+
+## 2015-06-26 20:35
+
+* 新增page/wash_order_suc，完成洗车订单详情页，提交成功状态
+* 新增page/insurance，完成保险理赔导航功能页面
+* 新增page/myinsurance，完成我的保单页面，含待确认保单和历史保单
+* 新增page/insurance_query，完成我的保单查询页面
+* 新增page/insurance_price，完成精准报价页面--输入城市、年龄、驾龄查询报价
+* 新增page/insurance_price_01，完成精准报价页面--输入保费参考价格查询报价
+* 新增page/insurance_price_02，完成精准报价页面--输入车牌号、姓名等信息查询报价
+* 新增page/miaosha，完成爆品秒杀页面
+* 新增page/entering，完成信息录入页面，其中还剩五六项在PSD图没看到，需要完善
+* 新增page/insurance_confirm，完成保单确认页面，图片可伸缩
+* 新增page/insurance_history，完成历史保单查询页面
+* 新增page/insurance_pay，完成保单代缴页面
+
+## 2015-06-26 09:41
+
+* 新增page/wash_detail，完成1元洗车提交订单页面
+* 新增page/wash_order_detail，完成1元洗车订单详情页面，含星级评分展示和用户评价
+* 新增page/comment，完成用户评价页面，可选择星级评分并输入评价内容
+* 新增page/maintain，完成上门保养功能导航页面
+* 新增page/maintain_order，完成上门保养订单提交页面
+
 ## 2015-06-25 09:02
 
 * 新增page/search，实现搜索展示页面功能，这个页面功能较复杂，花费时间太多了

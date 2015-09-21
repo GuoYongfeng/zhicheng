@@ -1,0 +1,99 @@
+#insurance_confirm .header {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: #eff2f7;
+  font-size: 0.15rem;
+  color: #999;
+  text-align: center;
+}
+#insurance_confirm .header li {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+#insurance_confirm .header li span {
+  background-color: #ccc;
+  position: absolute;
+  display: inline-block;
+  width: 0.16rem;
+  height: 0.16rem;
+  left: 0.04rem;
+  border-radius: 0.08rem;
+  top: 0.16rem;
+  line-height: 0.16rem;
+  color: #fff;
+  font-size: 0.12rem;
+}
+#insurance_confirm .header li h3 {
+  margin-left: 0.18rem;
+  font-size: 0.13rem;
+}
+#insurance_confirm .header .selected {
+  background-color: #55d368;
+  color: #fff;
+}
+#insurance_confirm .header .selected span {
+  color: #55d368;
+  background-color: #fff;
+}
+#insurance_confirm .header .over_select {
+  color: #55d368;
+}
+#insurance_confirm .header .over_select span {
+  color: #fff;
+  background-color: #55d368;
+}
+#insurance_confirm .img_wrap {
+  width: 100%;
+  background-color: #eff2f7;
+  margin: 0.02rem 0;
+  text-align: center;
+  padding: 0.15rem 0;
+}
+#insurance_confirm .img_wrap img {
+  width: 2.63rem;
+  height: 3.7rem;
+}
+#insurance_confirm p {
+  line-height: 0.4rem;
+  padding-left: 0.1rem;
+  color: #999;
+  font-size: 0.13rem;
+}
+#insurance_confirm p a {
+  text-decoration: none;
+  color: #ff8903;
+}
+#insurance_confirm .btns_wrap {
+  position: relative;
+  height: 1.4rem;
+}
+#insurance_confirm .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.7rem;
+}
+#insurance_confirm .btns input,
+#insurance_confirm .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#insurance_confirm .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#insurance_confirm .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}

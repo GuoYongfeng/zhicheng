@@ -40,7 +40,7 @@
   background-image: url(images/washcar_01.png);
 }
 #washcar header .sort .nearby,
-#washcar header .sort .car,
+#washcar header .sort .wash,
 #washcar header .sort .smarty {
   position: absolute;
   overflow: hidden;
@@ -50,7 +50,7 @@
   color: #666;
 }
 #washcar header .sort .nearby li,
-#washcar header .sort .car li,
+#washcar header .sort .wash li,
 #washcar header .sort .smarty li {
   width: 100%;
   height: 0.37rem;
@@ -58,7 +58,7 @@
   border-bottom: 1px solid #ccc;
 }
 #washcar header .sort .nearby .nearby_selected,
-#washcar header .sort .car .nearby_selected,
+#washcar header .sort .wash .nearby_selected,
 #washcar header .sort .smarty .nearby_selected {
   background-color: #ff8903;
   color: #fff;
@@ -110,7 +110,7 @@
   font-size: 0.12rem;
   font-style: normal;
   vertical-align: text-bottom;
-  margin-right: 0.3rem;
+  margin-right: 0.33rem;
 }
 #washcar .detail_common_wrap .detail .i_right {
   position: absolute;
@@ -133,6 +133,11 @@
 }
 #washcar .detail_common_wrap .detail .middle_line {
   margin-bottom: 0.04rem;
+}
+#washcar .detail_common_wrap .detail .price {
+  color: #ff8903;
+  float: right;
+  margin-right: 0.4rem;
 }
 #washcar .detail_common_wrap .detail a {
   display: inline-block;

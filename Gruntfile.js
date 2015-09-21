@@ -93,8 +93,34 @@ module.exports = function(grunt) {
                     "page/user_credit/user_credit.css": "page/user_credit/user_credit.less",
                     "page/washcar/washcar.css": "page/washcar/washcar.less",
                     "page/search/search.css": "page/search/search.less",
-                    
-                    
+                    "page/wash_detail/wash_detail.css": "page/wash_detail/wash_detail.less",
+                    "page/wash_order_detail/wash_order_detail.css": "page/wash_order_detail/wash_order_detail.less",
+                    "page/comment/comment.css": "page/comment/comment.less",
+                    "page/maintain/maintain.css": "page/maintain/maintain.less",
+                    "page/maintain_order/maintain_order.css": "page/maintain_order/maintain_order.less",
+                    "page/wash_order_suc/wash_order_suc.css": "page/wash_order_suc/wash_order_suc.less",
+                    "page/insurance/insurance.css": "page/insurance/insurance.less",
+                    "page/myinsurance/myinsurance.css": "page/myinsurance/myinsurance.less",
+                    "page/insurance_query/insurance_query.css": "page/insurance_query/insurance_query.less",
+                    "page/insurance_price/insurance_price.css": "page/insurance_price/insurance_price.less",
+                    "page/insurance_price_01/insurance_price_01.css": "page/insurance_price_01/insurance_price_01.less",
+                    "page/insurance_price_02/insurance_price_02.css": "page/insurance_price_02/insurance_price_02.less",
+                    "page/miaosha/miaosha.css": "page/miaosha/miaosha.less",
+                    "page/entering/entering.css": "page/entering/entering.less",
+                    "page/insurance_confirm/insurance_confirm.css": "page/insurance_confirm/insurance_confirm.less",
+                    "page/insurance_history/insurance_history.css": "page/insurance_history/insurance_history.less",
+                    "page/insurance_pay/insurance_pay.css": "page/insurance_pay/insurance_pay.less",
+                    "page/award/award.css": "page/award/award.less",
+                    "page/award_suc/award_suc.css": "page/award_suc/award_suc.less",
+                    "page/award_fail/award_fail.css": "page/award_fail/award_fail.less",
+                    "page/dispose_list/dispose_list.css": "page/dispose_list/dispose_list.less",
+                    "page/dispose_peccancy/dispose_peccancy.css": "page/dispose_peccancy/dispose_peccancy.less",
+                    "page/dispose_handle/dispose_handle.css": "page/dispose_handle/dispose_handle.less",
+                    "page/dispose_query/dispose_query.css": "page/dispose_query/dispose_query.less",
+                    "page/dispose_order/dispose_order.css": "page/dispose_order/dispose_order.less",
+
+
+
                 }
             }
         },

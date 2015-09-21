@@ -1,0 +1,75 @@
+#dispose_query dl {
+  margin-bottom: 0.64rem;
+}
+#dispose_query .dir_icon {
+  width: 0.5rem;
+  height: 0.3rem;
+}
+#dispose_query span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #ff8903;
+  margin: 0 0.1rem;
+}
+#dispose_query dd {
+  width: 100%;
+  background-color: #eff2f7;
+  height: 0.4rem;
+}
+#dispose_query dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#dispose_query .verify {
+  background-color: #eff2f7;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.15rem;
+  padding-right: 0.15rem;
+}
+#dispose_query .verify img {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+  margin-top: -0.1rem;
+}
+#dispose_query .verify .common {
+  position: relative;
+  line-height: 0.34rem;
+}
+#dispose_query .verify .common span {
+  color: #666;
+  font-size: 0.13rem;
+  display: inline-block;
+  height: 0.3rem;
+  border-left: 1px solid #ccc;
+  vertical-align: middle;
+  padding-left: 0.1rem;
+  line-height: 0.3rem;
+  margin-left: 0;
+}
+#dispose_query .verify .common .btns {
+  color: #fff;
+  background-color: #55d368;
+  padding: 0.01rem 0.1rem;
+  font-size: 0.13rem;
+  border-radius: 0.05rem;
+  position: absolute;
+  display: inline-block;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  right: 0.15rem;
+  top: 0.06rem;
+  width: 0.54rem;
+  text-align: center;
+}
+#dispose_query .total_wrap {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#dispose_query .total_wrap .total {
+  margin-left: 0.5rem;
+}
+#dispose_query .total_wrap .total li {
+  float: left;
+}

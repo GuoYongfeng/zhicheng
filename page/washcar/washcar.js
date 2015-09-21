@@ -13,7 +13,7 @@ var car = {
 			'data': ['新华区', '桥西区', '长安区', '裕华区', '井径矿区', '藁城区', '鹿泉区', '栾城区']
 		},
 		{	
-			'dom': $('.car'), 
+			'dom': $('.wash'), 
 			'visible': false,
 			'data': ['洗车', '洗车/美容', '洗车/美容/保养']
 		},
@@ -37,20 +37,20 @@ var car = {
 				data = self.data[index].data;
 
 			el.on('click', function( e ){
-
-				// reset all targets
+                var navFlag = $(this).is('.sort_selected');
+				// 重置导航栏
 				self.resetTargets();
-
-				// reset all selects
+				// 并设置当前导航
+                $(this).addClass('sort_selected');
+				// 清空下拉
 				self.resetRender();
-
-				$(this).addClass('sort_selected');
-
-				self.data[index].visible = !self.data[index].visible;
-
-				if(self.data[index].visible)
-					self.render.call(self, dom, data);
-
+				// 设置当前下拉的标志
+			    self.data[index].visible = !self.data[index].visible;
+			    
+				// 下拉渲染的条件
+                if( (navFlag && self.data[index].visible) || !navFlag ){
+                    self.render.call(self, dom, data);
+                }
 			});
 		});
 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上门保养</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="address=no" name="format-detection">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="../../static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="maintain_order.css">
+	<script type="text/javascript" src="../../static/js/common.js"></script>
+</head>
+<body>
+	<div id="maintain_order">
+		<form action="" method="post">
+			<dl>
+				<dd>
+					<img src="images/order_01.png">
+					<div class="common">
+						<span>车牌号</span>
+						<label>冀</label>
+						<input type="text" value="" class="car_num">
+					</div>
+				</dd>
+				<dd class="tips">
+					<p>
+						请输入车牌号后六位
+					</p>
+				</dd>
+				<dd>
+					<img src="images/order_02.png">
+					<div class="common">
+						<span>地址</span>
+						<input type="text" value="" placeholder="请输入您的地址">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/order_03.png">
+					<div class="common">
+						<span>时间</span>
+						<input type="date" value="" placeholder="2015-06-23 星期二 上午">
+					</div>
+				</dd>
+				<dd class="tips">
+					<p class="blue">
+						最终服务时间以客服确认为准
+					</p>
+				</dd>
+				<dd>
+					<img src="images/order_04.png">
+					<div class="common">
+						<span>姓名</span>
+						<input type="text" value="" placeholder="请输入您的姓名">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/order_05.png">
+					<div class="common">
+						<span>手机号码</span>
+						<input type="text" value="" placeholder="请输入您的手机号">
+					</div>
+				</dd>
+				<dd>
+					<img src="images/order_06.png">
+					<div class="common">
+						<h3>留言（选填）</h3>
+						<input type="text" class="comment" value="">
+					</div>
+				</dd>
+			</dl>
+			<div class="btns_wrap">
+			<div class="btns">
+				<input type="text" class="price" value="￥300.00">
+				<a href="javascript:void(0);" class="order">提交订单</a>
+			</div>
+		</div>
+		</form>
+	</div>
+	<div class="nav">
+		<ul>
+			<li class="li_online_on" data-on="li_online_on" data-off="li_online_off"></li>
+			<li class="li_car_off" data-on="li_car_on" data-off="li_car_off"></li>
+			<li class="li_self_off" data-on="li_self_on" data-off="li_self_off"></li>
+		</ul>
+	</div>
+<script type="text/javascript" src="maintain_order.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+#dispose_peccancy .dl_bottom {
+  margin-bottom: 0.64rem;
+}
+#dispose_peccancy .dir_icon {
+  width: 0.5rem;
+  height: 0.3rem;
+}
+#dispose_peccancy span {
+  vertical-align: text-bottom;
+  font-size: 0.11rem;
+  color: #ff8903;
+  margin: 0 0.1rem;
+}
+#dispose_peccancy dd {
+  width: 100%;
+  background-color: #eff2f7;
+  height: 0.4rem;
+  margin-top: 0.15rem;
+}
+#dispose_peccancy dd img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#dispose_peccancy h1 {
+  height: 0.24rem;
+  line-height: 0.4rem;
+  color: #666;
+  padding-left: 0.15rem;
+  font-size: 0.13rem;
+  font-weight: bold;
+}
+#dispose_peccancy .total_wrap {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#dispose_peccancy .total_wrap .total_icon {
+  float: left;
+}
+#dispose_peccancy .total_wrap .total li {
+  float: left;
+}
+#dispose_peccancy .love_car {
+  background-color: #fff;
+}
+#dispose_peccancy .love_car a {
+  width: 100%;
+  display: inline-block;
+  font-size: 0.14rem;
+  color: #ff8903;
+  text-align: center;
+}
+#dispose_peccancy .love_car a img {
+  float: right;
+}
+#dispose_peccancy .detail_common_wrap {
+  height: 0.8rem;
+  padding: 0.075rem 0;
+}
+#dispose_peccancy .detail_common_wrap h3 {
+  float: left;
+  width: 13.3%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 0.11rem;
+  color: #ff8903;
+}
+#dispose_peccancy .detail_common_wrap .detail {
+  margin-left: 17.3%;
+  line-height: 0.24rem;
+}
+#dispose_peccancy .detail_common_wrap .detail i {
+  color: #999999;
+  font-size: 0.12rem;
+  font-style: normal;
+  vertical-align: text-bottom;
+}
+#dispose_peccancy .detail_common_wrap .detail strong {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #666666;
+}
+#dispose_peccancy .detail_common_wrap .detail span {
+  font-size: 0.12rem;
+  margin: 0 0.2rem 0 0;
+}
+#dispose_peccancy .detail_common_wrap .detail label {
+  color: #fff;
+  background-color: #ff8903;
+  font-size: 0.12rem;
+  padding: 0.04rem;
+  border-radius: 0.03rem;
+  margin-left: 0.1rem;
+}
+#dispose_peccancy .detail_common_wrap .detail .middle_line {
+  margin-bottom: 0.04rem;
+}
+#dispose_peccancy .detail_common_wrap .detail a {
+  display: inline-block;
+  width: 100%;
+}
+#dispose_peccancy .detail_common_wrap img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+}
+#dispose_peccancy .order_info {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+#dispose_peccancy .order_info span {
+  float: left;
+  color: #999;
+}
+#dispose_peccancy .order_info label {
+  float: right;
+  padding-right: 0.15rem;
+}
+#dispose_peccancy .tips {
+  margin: 0.2rem 0.3rem 0.64rem 0;
+  float: right;
+  font-size: 0.13rem;
+  color: #999;
+}

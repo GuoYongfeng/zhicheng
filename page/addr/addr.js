@@ -5,7 +5,7 @@ var addr = {
 	},
 
 	data: {
-		option: ''
+		option: '1'
 	},
 
 	init: function(){
@@ -14,15 +14,22 @@ var addr = {
 	},
 
 	send: function(){
-		$.ajax({
-			url: "",
-			method: "POST",
-			data: this.data,
-			dataType: "json",
-			success: function(){
-
-			}
-		});
+	    var _this = this;
+	    
+	    $('.enter').on('click', function( e ){
+	        alert(_this.data.option);
+	        
+	   //     $.ajax({
+    // 			url: "",
+    // 			method: "POST",
+    // 			data: this.data,
+    // 			dataType: "json",
+    // 			success: function(){
+    
+    // 			}
+    // 		});
+	    });
+		
 	},
 
 	bind: function(){
@@ -35,6 +42,7 @@ var addr = {
 				_this.reset();
 				$(item).find('.options').addClass('img_wrap_selected');
 				_this.data.option = option;
+				
 			});
 		});
 	},

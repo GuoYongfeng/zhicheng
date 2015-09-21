@@ -1,0 +1,81 @@
+#wash_order_detail dl {
+  margin-top: 0.1rem;
+}
+#wash_order_detail dd {
+  background-color: #eff2f7;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  margin-top: 0.01rem;
+  padding: 0 0.15rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+#wash_order_detail dd span {
+  float: left;
+}
+#wash_order_detail dd i {
+  font-style: normal;
+  color: #fff;
+  background-color: #ff8903;
+  padding: 0.04rem;
+  margin-left: 1.2rem;
+  border-radius: 0.03rem;
+}
+#wash_order_detail dd label {
+  float: right;
+}
+#wash_order_detail dd .orange {
+  color: #ff8903;
+}
+#wash_order_detail dd img {
+  width: 0.5rem;
+  height: 0.28rem;
+  float: right;
+  margin: 0.04rem -0.15rem 0 0;
+}
+#wash_order_detail dd input {
+  height: 0.3rem;
+  width: 72%;
+  border: none;
+  font-size: 0.13rem;
+  padding-right: 0.03rem;
+  color: #999;
+  text-align: right;
+  background-color: #eff2f7;
+}
+#wash_order_detail .higher {
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+#wash_order_detail .btns_wrap {
+  position: relative;
+  height: 1.4rem;
+}
+#wash_order_detail .btns {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0.7rem;
+}
+#wash_order_detail .btns input,
+#wash_order_detail .btns a {
+  display: inline-block;
+  text-align: center;
+  width: 47.6%;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.16rem;
+  border: none;
+  border-radius: 0.05rem;
+}
+#wash_order_detail .btns .price {
+  background-color: #fff;
+  color: #ff8903;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#wash_order_detail .btns .order {
+  background-color: #55d368;
+  margin-left: 2%;
+}
