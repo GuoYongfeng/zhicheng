@@ -1,8 +1,5 @@
 module.exports = function(grunt) {
- 
-    // include connect-include
-    // var ssInclude = require("connect");
- 
+
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
